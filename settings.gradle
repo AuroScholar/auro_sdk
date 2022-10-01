@@ -18,7 +18,5 @@ pluginManagement {
 rootProject.name = "ImplementAuroApp"
 include ':app'
 include ':auroscholarapp'
-//include ':auroscholar'
-//include ':auroscholarapp'
 //project(':auroscholarapp').projectDir = new File(settingsDir, '../auroscholarapp')
 

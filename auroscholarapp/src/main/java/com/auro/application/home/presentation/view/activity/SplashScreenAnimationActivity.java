@@ -6,6 +6,7 @@ import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.telephony.TelephonyManager;
@@ -16,6 +17,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Toast;
 
+import androidx.annotation.RequiresApi;
 import androidx.databinding.DataBindingUtil;
 import androidx.lifecycle.ViewModelProviders;
 
@@ -84,6 +86,7 @@ public class SplashScreenAnimationActivity extends BaseActivity {
     LanguageListResModel languageListResModel;
 
     Details details;
+    @RequiresApi(api = Build.VERSION_CODES.GINGERBREAD)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -103,6 +106,7 @@ public class SplashScreenAnimationActivity extends BaseActivity {
 
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.GINGERBREAD)
     @Override
     protected void init() {
         binding = DataBindingUtil.setContentView(this, getLayout());
@@ -310,6 +314,7 @@ public class SplashScreenAnimationActivity extends BaseActivity {
         RemoteApi.Companion.invoke().getUserCheck(map_data)
                 .enqueue(new Callback<CheckUserResModel>()
                 {
+                    @RequiresApi(api = Build.VERSION_CODES.GINGERBREAD)
                     @Override
                     public void onResponse(Call<CheckUserResModel> call, Response<CheckUserResModel> response)
                     {
@@ -390,6 +395,7 @@ public class SplashScreenAnimationActivity extends BaseActivity {
     }
 
 
+    @RequiresApi(api = Build.VERSION_CODES.GINGERBREAD)
     private void whichScreenOpen() {
         PrefModel prefModel = AuroAppPref.INSTANCE.getModelInstance();
         int userType = prefModel.getUserType();
@@ -622,6 +628,7 @@ public class SplashScreenAnimationActivity extends BaseActivity {
 
             }
 
+            @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void logOut() {
                 AppLogger.e("Chhonker", "Logout");
@@ -656,6 +663,7 @@ public class SplashScreenAnimationActivity extends BaseActivity {
 
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.GINGERBREAD)
     public void memoryCheck() {
         long size = getAvailableInternalMemorySize();
         long externalStorage = getTotalExternalMemorySize();
@@ -718,6 +726,7 @@ public class SplashScreenAnimationActivity extends BaseActivity {
         finish();
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.GINGERBREAD)
     private void observeServiceResponse() {
 
         viewModel.serviceLiveData().observeForever(responseApi -> {
@@ -759,6 +768,7 @@ public class SplashScreenAnimationActivity extends BaseActivity {
         });
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.GINGERBREAD)
     void callLanguageMasterApi() {
         PrefModel prefModel = AuroAppPref.INSTANCE.getModelInstance();
 //        LanguageMasterDynamic model = AuroAppPref.INSTANCE.getModelInstance().getLanguageMasterDynamic();

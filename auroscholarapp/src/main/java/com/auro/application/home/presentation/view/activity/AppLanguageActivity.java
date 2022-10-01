@@ -6,12 +6,14 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
+import androidx.annotation.RequiresApi;
 import androidx.databinding.DataBindingUtil;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.GridLayoutManager;
@@ -109,6 +111,7 @@ public class AppLanguageActivity extends BaseActivity implements View.OnClickLis
         return R.layout.activity_app_language;
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.GINGERBREAD)
     @Override
     public void onClick(View view) {
         int id = view.getId();
@@ -255,6 +258,7 @@ public class AppLanguageActivity extends BaseActivity implements View.OnClickLis
         AnalyticsRegistry.INSTANCE.getModelInstance().trackSelectTeacherOrStudent(chooseType);
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
     @Override
     public void onBackPressed() {
         super.onBackPressed();
