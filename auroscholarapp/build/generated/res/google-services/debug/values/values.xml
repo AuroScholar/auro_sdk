@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">366052618270-un8fu5m3uu431moie72vcati005spavg.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://auroscholarapp.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">366052618270</string>
+    <string name="google_api_key" translatable="false">AIzaSyDzCM4cOe5GFZ0Rtl8Ficv7lXMJIJFChZQ</string>
+    <string name="google_app_id" translatable="false">1:366052618270:android:2dd48b074acac7ae167e0f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDzCM4cOe5GFZ0Rtl8Ficv7lXMJIJFChZQ</string>
+    <string name="google_storage_bucket" translatable="false">auroscholarapp.appspot.com</string>
+    <string name="project_id" translatable="false">auroscholarapp</string>
+</resources>

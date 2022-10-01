@@ -1,0 +1,3 @@
+D com/auro/application/util/camera/CameraSource$FlashMode
+D com/auro/application/util/camera/CameraSource$FocusMode
+D com/auro/application/util/camera/CameraSource$VideoMode
