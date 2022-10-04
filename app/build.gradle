@@ -47,3 +47,19 @@ dependencies {
 }
 apply plugin: 'com.google.gms.google-services'
 apply plugin: 'kotlin-android'
+apply plugin: 'maven-publish'
+
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                artifact("$buildDir/outputs/aar/${artifactId}-release.aar")
+
+                groupId = 'com.github.AuroScholar'
+                artifactId = 'auro_sdk'
+                version = '2.2.2'
+            }
+        }
+    }
+}
