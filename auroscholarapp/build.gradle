@@ -179,7 +179,7 @@ afterEvaluate {
 
                 groupId = 'com.github.AuroScholar'
                 artifactId = 'auro_sdk'
-                version = '2.2.2'
+                version = '2.2.5'
             }
         }
     }
