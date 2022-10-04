@@ -19,7 +19,6 @@ android {
 //        buildConfigField 'int', 'DEFAULT_ANIMATION_DURATION', '750'
 //    }
 
-
 //    bundle {
 //        language {
 //            enableSplit = false
