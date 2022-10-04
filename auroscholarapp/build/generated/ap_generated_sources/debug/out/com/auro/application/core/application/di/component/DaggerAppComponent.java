@@ -235,6 +235,7 @@ import com.auro.application.teacher.presentation.view.fragment.UpComingBookFragm
 import com.auro.application.teacher.presentation.view.fragment.UpComingBookFragment_MembersInjector;
 import com.auro.application.util.alert_dialog.UpComingTimeSlotDialog;
 import com.auro.application.util.alert_dialog.UpComingTimeSlotDialog_MembersInjector;
+import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import com.google.gson.Gson;
 import dagger.internal.DoubleCheck;
 import dagger.internal.Preconditions;
@@ -1223,18 +1224,21 @@ public final class DaggerAppComponent implements AppComponent {
     injectUpComingTimeSlotDialog(fragment);
   }
 
+  @CanIgnoreReturnValue
   private StudentKycInfoFragment injectStudentKycInfoFragment(StudentKycInfoFragment instance) {
     StudentKycInfoFragment_MembersInjector.injectViewModelFactory(
         instance, provideStudentKycInfoViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private TeacherKycInfoFragment injectTeacherKycInfoFragment(TeacherKycInfoFragment instance) {
     TeacherKycInfoFragment_MembersInjector.injectViewModelFactory(
         instance, provideTeacherKycInfoFragmentViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private StudentUploadDocumentFragment injectStudentUploadDocumentFragment(
       StudentUploadDocumentFragment instance) {
     StudentUploadDocumentFragment_MembersInjector.injectViewModelFactory(
@@ -1242,60 +1246,70 @@ public final class DaggerAppComponent implements AppComponent {
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private EnterPinActivity injectEnterPinActivity(EnterPinActivity instance) {
     EnterPinActivity_MembersInjector.injectViewModelFactory(
         instance, provideEnterPinViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private RegisterActivity injectRegisterActivity(RegisterActivity instance) {
     RegisterActivity_MembersInjector.injectViewModelFactory(
         instance, provideRegisterActivityViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private ForgotPinActivity injectForgotPinActivity(ForgotPinActivity instance) {
     ForgotPinActivity_MembersInjector.injectViewModelFactory(
         instance, provideForgotPinActivityViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private ValidateStudentActivity injectValidateStudentActivity(ValidateStudentActivity instance) {
     ValidateStudentActivity_MembersInjector.injectViewModelFactory(
         instance, provideValidateStudentActivityViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private EnterNumberActivity injectEnterNumberActivity(EnterNumberActivity instance) {
     EnterNumberActivity_MembersInjector.injectViewModelFactory(
         instance, provideEnterNumberActivityViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private OtpActivity injectOtpActivity(OtpActivity instance) {
     OtpActivity_MembersInjector.injectViewModelFactory(
         instance, provideOtpActivityViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private BookSlotFragment injectBookSlotFragment(BookSlotFragment instance) {
     BookSlotFragment_MembersInjector.injectViewModelFactory(
         instance, provideBookSlotFragmentViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private PartnersFragment injectPartnersFragment(PartnersFragment instance) {
     PartnersFragment_MembersInjector.injectViewModelFactory(
         instance, providePartnersViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private PartnersWebviewFragment injectPartnersWebviewFragment(PartnersWebviewFragment instance) {
     PartnersWebviewFragment_MembersInjector.injectViewModelFactory(
         instance, PartnersWebviewFragmentViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private SubjectPreferencesActivity injectSubjectPreferencesActivity(
       SubjectPreferencesActivity instance) {
     SubjectPreferencesActivity_MembersInjector.injectViewModelFactory(
@@ -1303,48 +1317,56 @@ public final class DaggerAppComponent implements AppComponent {
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private CertificateFragment injectCertificateFragment(CertificateFragment instance) {
     CertificateFragment_MembersInjector.injectViewModelFactory(
         instance, provideCertificateFragmentViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private KYCViewFragment injectKYCViewFragment(KYCViewFragment instance) {
     KYCViewFragment_MembersInjector.injectViewModelFactory(
         instance, provideKYCViewFragmentViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private QuizTestFragment injectQuizTestFragment(QuizTestFragment instance) {
     QuizTestFragment_MembersInjector.injectViewModelFactory(
         instance, provideQuizTestFragmentViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private BankFragment injectBankFragment(BankFragment instance) {
     BankFragment_MembersInjector.injectViewModelFactory(
         instance, provideBankFragmentViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private PaytmFragment injectPaytmFragment(PaytmFragment instance) {
     PaytmFragment_MembersInjector.injectViewModelFactory(
         instance, provideSendMoneyFragmentViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private OtpScreenActivity injectOtpScreenActivity(OtpScreenActivity instance) {
     OtpScreenActivity_MembersInjector.injectViewModelFactory(
         instance, provideOtpScreenActivityViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private GradeChangeFragment injectGradeChangeFragment(GradeChangeFragment instance) {
     GradeChangeFragment_MembersInjector.injectViewModelFactory(
         instance, provideGradeChangeDialogViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private FriendsLeaderBoardFragment injectFriendsLeaderBoardFragment(
       FriendsLeaderBoardFragment instance) {
     FriendsLeaderBoardFragment_MembersInjector.injectViewModelFactory(
@@ -1352,6 +1374,7 @@ public final class DaggerAppComponent implements AppComponent {
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private FriendsLeaderBoardAddFragment injectFriendsLeaderBoardAddFragment(
       FriendsLeaderBoardAddFragment instance) {
     FriendsLeaderBoardAddFragment_MembersInjector.injectViewModelFactory(
@@ -1359,6 +1382,7 @@ public final class DaggerAppComponent implements AppComponent {
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private FriendsLeaderBoardListFragment injectFriendsLeaderBoardListFragment(
       FriendsLeaderBoardListFragment instance) {
     FriendsLeaderBoardListFragment_MembersInjector.injectViewModelFactory(
@@ -1366,24 +1390,28 @@ public final class DaggerAppComponent implements AppComponent {
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private InviteFriendDialog injectInviteFriendDialog(InviteFriendDialog instance) {
     InviteFriendDialog_MembersInjector.injectViewModelFactory(
         instance, provideInviteFriendDialogViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private CongratulationsDialog injectCongratulationsDialog(CongratulationsDialog instance) {
     CongratulationsDialog_MembersInjector.injectViewModelFactory(
         instance, provideCongratulationsDialogViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private TransactionsFragment injectTransactionsFragment(TransactionsFragment instance) {
     TransactionsFragment_MembersInjector.injectViewModelFactory(
         instance, provideTransactionsFragmentViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private TeacherSaveDetailFragment injectTeacherSaveDetailFragment(
       TeacherSaveDetailFragment instance) {
     TeacherSaveDetailFragment_MembersInjector.injectViewModelFactory(
@@ -1391,12 +1419,14 @@ public final class DaggerAppComponent implements AppComponent {
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private TeacherProfileFragment injectTeacherProfileFragment(TeacherProfileFragment instance) {
     TeacherProfileFragment_MembersInjector.injectViewModelFactory(
         instance, provideTeacherProfileViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private ConsgratuationLessScoreDialog injectConsgratuationLessScoreDialog(
       ConsgratuationLessScoreDialog instance) {
     ConsgratuationLessScoreDialog_MembersInjector.injectViewModelFactory(
@@ -1404,6 +1434,7 @@ public final class DaggerAppComponent implements AppComponent {
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private FriendRequestListDialogFragment injectFriendRequestListDialogFragment(
       FriendRequestListDialogFragment instance) {
     FriendRequestListDialogFragment_MembersInjector.injectViewModelFactory(
@@ -1411,12 +1442,14 @@ public final class DaggerAppComponent implements AppComponent {
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private KYCFragment injectKYCFragment(KYCFragment instance) {
     KYCFragment_MembersInjector.injectViewModelFactory(
         instance, provideKYCViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private HomeActivity injectHomeActivity(HomeActivity instance) {
     HomeActivity_MembersInjector.injectRemoteApi(instance, provideDashBoardApiProvider.get());
     HomeActivity_MembersInjector.injectViewModelFactory(
@@ -1424,30 +1457,35 @@ public final class DaggerAppComponent implements AppComponent {
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private UPIFragment injectUPIFragment(UPIFragment instance) {
     UPIFragment_MembersInjector.injectViewModelFactory(
         instance, provideSendMoneyFragmentViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private SendMoneyFragment injectSendMoneyFragment(SendMoneyFragment instance) {
     SendMoneyFragment_MembersInjector.injectViewModelFactory(
         instance, provideSendMoneyFragmentViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private DemographicFragment injectDemographicFragment(DemographicFragment instance) {
     DemographicFragment_MembersInjector.injectViewModelFactory(
         instance, provideDemographicFragmentViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private StudentProfileFragment injectStudentProfileFragment(StudentProfileFragment instance) {
     StudentProfileFragment_MembersInjector.injectViewModelFactory(
         instance, provideStudentProfileViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private WalletInfoDetailFragment injectWalletInfoDetailFragment(
       WalletInfoDetailFragment instance) {
     WalletInfoDetailFragment_MembersInjector.injectViewModelFactory(
@@ -1455,18 +1493,21 @@ public final class DaggerAppComponent implements AppComponent {
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private LoginActivity injectLoginActivity(LoginActivity instance) {
     LoginActivity_MembersInjector.injectViewModelFactory(
         instance, provideLoginActivityViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private ChooseGradeActivity injectChooseGradeActivity(ChooseGradeActivity instance) {
     ChooseGradeActivity_MembersInjector.injectViewModelFactory(
         instance, provideWalletChooseGradeViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private CompleteStudentProfileWithPinActivity injectCompleteStudentProfileWithPinActivity(
       CompleteStudentProfileWithPinActivity instance) {
     CompleteStudentProfileWithPinActivity_MembersInjector.injectViewModelFactory(
@@ -1474,30 +1515,35 @@ public final class DaggerAppComponent implements AppComponent {
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private AppLanguageActivity injectAppLanguageActivity(AppLanguageActivity instance) {
     AppLanguageActivity_MembersInjector.injectViewModelFactory(
         instance, provideAppLanguageViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private DashBoardMainActivity injectDashBoardMainActivity(DashBoardMainActivity instance) {
     DashBoardMainActivity_MembersInjector.injectViewModelFactory(
         instance, provideDashBoardMainViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private MainQuizHomeFragment injectMainQuizHomeFragment(MainQuizHomeFragment instance) {
     MainQuizHomeFragment_MembersInjector.injectViewModelFactory(
         instance, provideMainQuizViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private UserProfileActivity injectUserProfileActivity(UserProfileActivity instance) {
     UserProfileActivity_MembersInjector.injectViewModelFactory(
         instance, provideUserProfileModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private SplashScreenAnimationActivity injectSplashScreenAnimationActivity(
       SplashScreenAnimationActivity instance) {
     SplashScreenAnimationActivity_MembersInjector.injectViewModelFactory(
@@ -1505,6 +1551,7 @@ public final class DaggerAppComponent implements AppComponent {
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private InformationDashboardFragment injectInformationDashboardFragment(
       InformationDashboardFragment instance) {
     InformationDashboardFragment_MembersInjector.injectViewModelFactory(
@@ -1512,6 +1559,7 @@ public final class DaggerAppComponent implements AppComponent {
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private TeacherDashboardActivity injectTeacherDashboardActivity(
       TeacherDashboardActivity instance) {
     TeacherDashboardActivity_MembersInjector.injectRemoteApi(
@@ -1521,18 +1569,21 @@ public final class DaggerAppComponent implements AppComponent {
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private SlideFragment injectSlideFragment(SlideFragment instance) {
     SlideFragment_MembersInjector.injectViewModelFactory(
         instance, provideSliderViewModelModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private CreateGroupFragment injectCreateGroupFragment(CreateGroupFragment instance) {
     CreateGroupFragment_MembersInjector.injectViewModelFactory(
         instance, provideCreateGroupViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private MyClassRoomGroupFragment injectMyClassRoomGroupFragment(
       MyClassRoomGroupFragment instance) {
     MyClassRoomGroupFragment_MembersInjector.injectViewModelFactory(
@@ -1540,42 +1591,49 @@ public final class DaggerAppComponent implements AppComponent {
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private BookedSlotListFragment injectBookedSlotListFragment(BookedSlotListFragment instance) {
     BookedSlotListFragment_MembersInjector.injectViewModelFactory(
         instance, provideBookedSlotListViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private UpComingBookFragment injectUpComingBookFragment(UpComingBookFragment instance) {
     UpComingBookFragment_MembersInjector.injectViewModelFactory(
         instance, provideUpCommingBookFragmentViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private ResetPasswordActivity injectResetPasswordActivity(ResetPasswordActivity instance) {
     ResetPasswordActivity_MembersInjector.injectViewModelFactory(
         instance, provideResetPasswordViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private TeacherProfileActivity injectTeacherProfileActivity(TeacherProfileActivity instance) {
     TeacherProfileActivity_MembersInjector.injectViewModelFactory(
         instance, provideTeacherModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private QuizTestNativeFragment injectQuizTestNativeFragment(QuizTestNativeFragment instance) {
     QuizTestNativeFragment_MembersInjector.injectViewModelFactory(
         instance, provideQuizTestNativeFragmentModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private KycNewScreenFragment injectKycNewScreenFragment(KycNewScreenFragment instance) {
     KycNewScreenFragment_MembersInjector.injectViewModelFactory(
         instance, provideKycNewFragmentModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private TeacherUserProfileFragment injectTeacherUserProfileFragment(
       TeacherUserProfileFragment instance) {
     TeacherUserProfileFragment_MembersInjector.injectViewModelFactory(
@@ -1583,18 +1641,21 @@ public final class DaggerAppComponent implements AppComponent {
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private SetPinActivity injectSetPinActivity(SetPinActivity instance) {
     SetPinActivity_MembersInjector.injectViewModelFactory(
         instance, provideSetPinViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private UploadDocumentFragment injectUploadDocumentFragment(UploadDocumentFragment instance) {
     UploadDocumentFragment_MembersInjector.injectViewModelFactory(
         instance, provideUploadDocumentFragmentViewModelFactoryProvider.get());
     return instance;
   }
 
+  @CanIgnoreReturnValue
   private UpComingTimeSlotDialog injectUpComingTimeSlotDialog(UpComingTimeSlotDialog instance) {
     UpComingTimeSlotDialog_MembersInjector.injectViewModelFactory(
         instance, provideUpCommingTimeSlotViewModelFactoryProvider.get());
