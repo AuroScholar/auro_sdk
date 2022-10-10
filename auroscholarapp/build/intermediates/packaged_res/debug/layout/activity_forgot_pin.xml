@@ -151,7 +151,6 @@
 
                         <com.chaos.view.PinView
                             android:id="@+id/confirm_pin"
-                            style="@style/PinWidget.PinView"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="@dimen/_5sdp"
