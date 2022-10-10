@@ -117,13 +117,11 @@
 
                         <com.chaos.view.PinView
                             android:id="@+id/pinView"
-                            style="@style/PinWidget.PinView"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="@dimen/_5sdp"
                             android:cursorVisible="true"
                             android:inputType="number"
-                            android:itemBackground="@color/transparent"
                             android:padding="@dimen/_12sdp"
                             android:textColor="@color/blue_color"
                             android:textSize="@dimen/_14sdp"
