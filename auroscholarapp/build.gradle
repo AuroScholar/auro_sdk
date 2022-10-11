@@ -94,7 +94,7 @@ dependencies {
     implementation networkDependencies.values()
     // GOOGLE Dependencies
     implementation googleDependencies.values()
-    implementation googleDependencies.dagger
+    api googleDependencies.dagger
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
    // implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'
@@ -119,26 +119,26 @@ dependencies {
     implementation 'com.google.firebase:firebase-database:20.0.6'
     annotationProcessor googleDependencies.daggerCompiler
     //Rx Dependencies
-    implementation rxDependencies.rx_android
+    api rxDependencies.rx_android
     // DATABASE
-    implementation DatabaseDependencies.roomRuntime
+    api DatabaseDependencies.roomRuntime
     annotationProcessor DatabaseDependencies.roomCompiler
-    implementation DatabaseDependencies.lifecyleRuntime
-    implementation DatabaseDependencies.lifecyleExtension
-    implementation TruecallerDependencies.truecaller
-    implementation FacebookDependencies.facebook
-    implementation OtpDependencies.otpdependencies
+    api DatabaseDependencies.lifecyleRuntime
+    api DatabaseDependencies.lifecyleExtension
+    api TruecallerDependencies.truecaller
+    api FacebookDependencies.facebook
+    api OtpDependencies.otpdependencies
     // FIREBASE
     implementation FirebaseDependencies.values()
     // OTHER Dependencies
-    implementation otherDependencies.glide
+    api otherDependencies.glide
     annotationProcessor otherDependencies.glideCompiler
-    implementation otherDependencies.shimmer
+    api otherDependencies.shimmer
     // TESTING Dependency
     implementation 'com.intuit.sdp:sdp-android:1.0.6'
     implementation 'com.google.android.gms:play-services-vision:20.1.3'
     implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:11.1.0'
-    implementation CrashLyticsDependencies.crashlytics
+    api CrashLyticsDependencies.crashlytics
     // for mlkit
     implementation 'com.google.firebase:firebase-ml-vision:24.1.0'
     implementation platform('com.google.firebase:firebase-bom:28.0.1')
