@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="auro_languagelist">
+        <item>English</item>
+        <item>हिन्दी</item>
+    </string-array>
+    <string-array name="boardlist">
+        <item>Select Board</item>
+        <item>CBSE</item>
+        <item>ICSE</item>
+        <item>GSEB</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="classes">
+        <item>1st</item>
+        <item>2nd </item>
+        <item>3rd</item>
+        <item>4th</item>
+        <item>5th</item>
+        <item>6th</item>
+        <item>7th</item>
+        <item>8th</item>
+        <item>9th</item>
+        <item>10th</item>
+        <item>11th</item>
+        <item>12th</item>
+    </string-array>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=
+        </item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>
+            MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK
+        </item>
+    </string-array>
+    <string-array name="genderlist">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="genderlist_profile">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="languagelist">
+        <item>Please Select Language Medium</item>
+        <item>English</item>
+        <item>Hindi</item>
+        <item>Punjabi</item>
+        <item>Gujarati</item>
+        <item>Tamil</item>
+        <item>Kannada</item>
+        <item>Marathi</item>
+    </string-array>
+    <string-array name="privateTutionList">
+        <item>Select Private Tution</item>
+        <item>Yes</item>
+        <item>NO</item>
+    </string-array>
+    <string-array name="privateTypeList">
+        <item>Select Tution Type</item>
+        <item>Group</item>
+        <item>Personal</item>
+        <item>Online</item>
+    </string-array>
+    <string-array name="schooltypelist">
+        <item>Select School Type</item>
+        <item>Private School</item>
+        <item>Government School</item>
+        <item>SHBCT</item>
+        <item>Other</item>
+    </string-array>
+    <color name="ash_grey">#FFb1b1b1</color>
+    <color name="auro_black">#312E33</color>
+    <color name="auro_blue">#345FD6</color>
+    <color name="auro_border_blue">#276EF1</color>
+    <color name="auro_buton_text_blue">#5B96F3</color>
+    <color name="auro_chat_blue">#008EE5</color>
+    <color name="auro_color_grey">#EFEFF2</color>
+    <color name="auro_dark_blue">#054B74</color>
+    <color name="auro_green_color">#4caf50</color>
+    <color name="auro_grey">#A0A4B8</color>
+    <color name="auro_grey_color">#A17174</color>
+    <color name="auro_grey_new">#333944</color>
+    <color name="auro_icon_bg">#055E8A</color>
+    <color name="auro_more_dark_grey">#707070</color>
+    <color name="auro_orange">#F57949</color>
+    <color name="auro_start_greay">#DFE1E9</color>
+    <color name="auro_subject_blue">#1A203E</color>
+    <color name="auro_text_grey">#BBBBBB</color>
+    <color name="auro_text_line_grey">#E3E0E0</color>
+    <color name="auro_theme_dark_blue">#054b74</color>
+    <color name="backgroun_transparent">#f2000000</color>
+    <color name="background_camera_bottom_bar">#55000000</color>
+    <color name="balance_green_color">#82AD12</color>
+    <color name="black">#000000</color>
+    <color name="blue_color">#0DADFF</color>
+    <color name="blue_hight_light">#0F8BE8</color>
+    <color name="blur_login">#4383C4</color>
+    <color name="box_login_hint_color">#D3D3D3</color>
+    <color name="box_white_border">#D7D7D7</color>
+    <color name="colorAccent">#00A1DB</color>
+    <color name="colorGretTheme">#d6d3d3</color>
+    <color name="colorPrimary">#00A1DB</color>
+    <color name="colorPrimaryDark">#00A1DB</color>
+    <color name="color_black_trns">#918F8F</color>
+    <color name="color_dim_grey">#6a6a6a</color>
+    <color name="color_grey">#595959</color>
+    <color name="color_grey_100">#D3D0D0</color>
+    <color name="color_light_grey">#d5d5d5</color>
+    <color name="color_red">#e24358</color>
+    <color name="color_rich_electric_blue">#03a3df</color>
+    <color name="color_sky_blue">#00A1DB</color>
+    <color name="dark_blue">#054B74</color>
+    <color name="dark_magenta">#054B74</color>
+    <color name="dark_text_color">#414042</color>
+    <color name="davy_grey">#FF575757</color>
+    <color name="dim_grey">#FF656565</color>
+    <color name="f3f3f3">#f3f3f3</color>
+    <color name="fb_bg_color">#3B5998</color>
+    <color name="finestBlack">#000000</color>
+    <color name="finestBlack05">#0D202020</color>
+    <color name="finestBlack10">#1A202020</color>
+    <color name="finestBlack20">#33202020</color>
+    <color name="finestBlack30">#4D202020</color>
+    <color name="finestBlack40">#66202020</color>
+    <color name="finestGray">#E7E7E7</color>
+    <color name="finestGray10">#1AD2D2D2</color>
+    <color name="finestGray20">#33D2D2D2</color>
+    <color name="finestSilver">#A5A5A5</color>
+    <color name="finestWhite">#FFFFFF</color>
+    <color name="finestWhite10">#1AFFFFFF</color>
+    <color name="finestWhite20">#33FFFFFF</color>
+    <color name="finestWhite30">#4DFFFFFF</color>
+    <color name="gey002">#707070</color>
+    <color name="green_timer_color">#03AE4D</color>
+    <color name="grey_color">#7e7c7f</color>
+    <color name="item_bg_color">#F8F7FE</color>
+    <color name="light_gray_text1">#787878</color>
+    <color name="light_grey">#ffd4d4d5</color>
+    <color name="login_screen_bgcolor">#F4F4F8</color>
+    <color name="newGrey">#9E9E9E</color>
+    <color name="new_text_color">#7D9294</color>
+    <color name="non_select">#888888</color>
+    <color name="off_white">#F6F6F6</color>
+    <color name="orange">#789F10</color>
+    <color name="payment_color_green">#78b348</color>
+    <color name="red_dark">#E04F5F</color>
+    <color name="rich_electric_blue">#ff03a3df</color>
+    <color name="seprartion_color">#FAFAFA</color>
+    <color name="shimmer_color">#b1b1b1</color>
+    <color name="tab_bg_color">#F5F7FA</color>
+    <color name="tansparent_quiz_layout_color">#A60A4242</color>
+    <color name="taupe">#FF3C3C3C</color>
+    <color name="taupe_gray">#908e8e</color>
+    <color name="text_color_103">#333333</color>
+    <color name="toolbar_pink">#f0c3bd</color>
+    <color name="tranparentwhite">#56000000</color>
+    <color name="tranparentwhitelight">#46000000</color>
+    <color name="txtDarkGrey">#8b8888</color>
+    <color name="ufo_green">#4bd964</color>
+    <color name="ui_color_code">#9296AB</color>
+    <color name="white">#ffffff</color>
+    <color name="yellowdark">#FFB60D</color>
+    <dimen name="_100sdp">100.00dp</dimen>
+    <dimen name="_10sdp">10.00dp</dimen>
+    <dimen name="_11sdp">11.00dp</dimen>
+    <dimen name="_120sdp">120.00dp</dimen>
+    <dimen name="_12sdp">12.00dp</dimen>
+    <dimen name="_135sdp">135.00dp</dimen>
+    <dimen name="_13sdp">13.00dp</dimen>
+    <dimen name="_14sdp">14.00dp</dimen>
+    <dimen name="_150sdp">150.00dp</dimen>
+    <dimen name="_15sdp">15.00dp</dimen>
+    <dimen name="_160sdp">160.00dp</dimen>
+    <dimen name="_16sdp">16.00dp</dimen>
+    <dimen name="_170sdp">170.00dp</dimen>
+    <dimen name="_175sdp">175.00dp</dimen>
+    <dimen name="_17sdp">17.00dp</dimen>
+    <dimen name="_180sdp">180.00dp</dimen>
+    <dimen name="_18sdp">18.00dp</dimen>
+    <dimen name="_1sdp">1.00dp</dimen>
+    <dimen name="_200sdp">200.00dp</dimen>
+    <dimen name="_20sdp">20.00dp</dimen>
+    <dimen name="_210sdp">210.00dp</dimen>
+    <dimen name="_21sdp">21.00dp</dimen>
+    <dimen name="_22sdp">22.00dp</dimen>
+    <dimen name="_250sdp">250.00dp</dimen>
+    <dimen name="_25sdp">25.00dp</dimen>
+    <dimen name="_280sdp">280.00dp</dimen>
+    <dimen name="_2sdp">2.00dp</dimen>
+    <dimen name="_300sdp">300.00dp</dimen>
+    <dimen name="_30sdp">30.00dp</dimen>
+    <dimen name="_32sdp">32.00dp</dimen>
+    <dimen name="_35sdp">35.00dp</dimen>
+    <dimen name="_37sdp">37.00dp</dimen>
+    <dimen name="_38sdp">38.00dp</dimen>
+    <dimen name="_3sdp">3.00dp</dimen>
+    <dimen name="_40sdp">40.00dp</dimen>
+    <dimen name="_45sdp">45.00dp</dimen>
+    <dimen name="_4sdp">4.00dp</dimen>
+    <dimen name="_500sdp">500.00dp</dimen>
+    <dimen name="_50sdp">50.00dp</dimen>
+    <dimen name="_5sdp">5.00dp</dimen>
+    <dimen name="_600sdp">600.00dp</dimen>
+    <dimen name="_60sdp">60.00dp</dimen>
+    <dimen name="_6sdp">6.00dp</dimen>
+    <dimen name="_70sdp">70.00dp</dimen>
+    <dimen name="_75sdp">75.00dp</dimen>
+    <dimen name="_7sdp">7.00dp</dimen>
+    <dimen name="_80sdp">80.00dp</dimen>
+    <dimen name="_85sdp">85.00dp</dimen>
+    <dimen name="_8sdp">8.00dp</dimen>
+    <dimen name="_90sdp">90.00dp</dimen>
+    <dimen name="_9sdp">9.00dp</dimen>
+    <dimen name="_minus40sdp">-40.00dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="seekbar_thumb_width">25dp</dimen>
+    <string name="aadhar_back">Aadhar Back Side</string>
+    <string name="accept">Accept</string>
+    <string name="accept_and_start_quiz">Accept and start quiz</string>
+    <string name="accept_and_use_the_app">Accept and use the app</string>
+    <string name="accept_continue"><![CDATA[Accept & Continue]]></string>
+    <string name="account_number_mismatch">Account Number Mismatch</string>
+    <string name="add_friend">Add Friend</string>
+    <string name="add_student">Add Student</string>
+    <string name="added">Added</string>
+    <string name="address_not_found">Address not found</string>
+    <string name="already_finished">Quiz is already finished due to some following reasons Time Out, Already Attempted or You Identify Cheated.</string>
+    <string name="and">and</string>
+    <string name="app_name">AuroScholar</string>
+    <string name="approved">Approved</string>
+    <string name="auro_app_language">Please select your language</string>
+    <string name="auro_choose_any_one_option">Select your profile to continue your account set up accordingly.</string>
+    <string name="auro_choose_class">Choose Class</string>
+    <string name="auro_choose_class_des">10 mins, 10 questions one step away from scholarship</string>
+    <string name="auro_grab_this_opportunity">Grab This opportunity To Become Auro Teacher</string>
+    <string name="auro_group_name">Group Name</string>
+    <string name="auro_hey">Hey!</string>
+    <string name="auro_information">Information</string>
+    <string name="auro_information_on_auroscholar">National Health Movement</string>
+    <string name="auro_january_scholarship">January Scholarship</string>
+    <string name="auro_login">Login</string>
+    <string name="auro_login_sign_up">Are you a parent/student or a teacher ?</string>
+    <string name="auro_low_memory_status">Low Internal Storage</string>
+    <string name="auro_multi_language">You can select your preferable option to enjoy the best of Auro Scholar</string>
+    <string name="auro_my_classroom">My Classroom</string>
+    <string name="auro_parent">Parent/Student</string>
+    <string name="auro_please_be_patience">Please Be Patience <font color="#5B96F3">Almost Done !</font></string>
+    <string name="auro_scholar_demographics_details">Auro Scholar Demographics Details</string>
+    <string name="auro_scholar_wallet">You have got ₹50 Scholarship in your\nAuro Scholar Wallet!</string>
+    <string name="auro_set_my_account">Setup My Account</string>
+    <string name="auro_signUp">Signup</string>
+    <string name="auro_skip_for_now"><u>Skip For Now</u></string>
+    <string name="auro_student_list">Student List</string>
+    <string name="auro_subject">Subject</string>
+    <string name="auro_teacher">Teacher</string>
+    <string name="auro_total_student">95 Students</string>
+    <string name="auro_you_have_chance">You have Chance To<font color="#5B96F3"> Win ₹50 Per Quiz</font>   So What Are You Waiting For?</string>
+    <string name="back_button">BACK</string>
+    <string name="bank_transfer">Bank Transfer</string>
+    <string name="beneficiary_name">Beneficiary Name</string>
+    <string name="board">Student School Board</string>
+    <string name="book_free_tutoring_session">Book Free Tutoring Session</string>
+    <string name="botoom_text">Lorem Ipsum is simply dummy text of the printing and <font color="#5B96F3"> typesetting industry.</font></string>
+    <string name="bullet_five">Camera  will be only used for fraud control purpose.</string>
+    <string name="bullet_four">Please read each and every question carefully.</string>
+    <string name="bullet_one">Please read the all instructions carefully</string>
+    <string name="bullet_three">Quiz contains the 10 questions.</string>
+    <string name="bullet_two">Maths Question bank is powered by Cambridge</string>
+    <string name="bullted_list">
+          \u25CF  Please read the all instructions carefully,
+       \n \u25CF Question bank is powered by Cambridge.
+        \n \u25CF Quiz contains the 10 questions.
+        \n \u25CF Please read each and every question carefully.
+        \n \u25CF Camera  will be only used for fraud control purpose.
+
+    </string>
+    <string name="bundleassignmentreqmodel">assignmentReqModel</string>
+    <string name="bundledashboardresmodel">dashboardResModel</string>
+    <string name="by_continuing">By continuing, your agree to our</string>
+    <string name="call_our_customercare">Please call our customer care number to get your scholarship</string>
+    <string name="cancel">Cancel</string>
+    <string name="certificate_content">Select Your Certificates to download or click on each to view in large size</string>
+    <string name="certificatesmenuauro">Certificates</string>
+    <string name="challenge">Challenge</string>
+    <string name="challenge_msg">just challenged you in a quiz! Can you beat their score?</string>
+    <string name="challenge_your_friends">Challenge Your Friends</string>
+    <string name="challenged_you">Challenged You</string>
+    <string name="change_mobile_no">Change Number</string>
+    <string name="check_discalimer_first_text">I/we hereby allow my/our child to use the Auro Scholar application to take quizzes, learn and win scholarships. In consideration of this, I will not allow, promote or use any unfair means to help my child to get scholarships or while taking quizzes.</string>
+    <string name="check_discalimer_second_text">I/We declare to provide all the demographic and personal information voluntarily furnished by my/our child is true, correct and complete and has been under my/our supervision and Auro Scholar is not liable for any incorrect information provided by me/us.</string>
+    <string name="check_discalimer_third_text">I grant my consent to Auro Scholar to use the details provided, The Scholarship shall be transferred to my bank account post their consent.</string>
+    <string name="choose_file">Choose File</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="choose_slot">Choose Slot</string>
+    <string name="choose_student">Choose Student</string>
+    <string name="choose_your_state">Choose Your State</string>
+    <string name="city">City<font color="#FF0000">*</font></string>
+    <string name="classes">Classes You Teach</string>
+    <string name="code_valid_for">(Code valid for)</string>
+    <string name="complete_kyc">Upload documents to complete KYC</string>
+    <string name="confirm_grade">CONFIRM GRADE</string>
+    <string name="confirm_otp">CONFIRM OTP</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="confirm_pin">Confirm Pin</string>
+    <string name="confirm_the_account_number">Confirm the account number</string>
+    <string name="confirm_your_name">Confirm Your Name</string>
+    <string name="congratulation_new">Congratulations</string>
+    <string name="continue_exit">Continue</string>
+    <string name="create_group">Create Group</string>
+    <string name="crop_image_activity_no_permissions">Cancelling, required permissions are not granted</string>
+    <string name="crop_image_activity_title"/>
+    <string name="crop_image_menu_crop">Crop</string>
+    <string name="crop_image_menu_flip">Flip</string>
+    <string name="crop_image_menu_flip_horizontally">Flip horizontally</string>
+    <string name="crop_image_menu_flip_vertically">Flip vertically</string>
+    <string name="crop_image_menu_rotate_left">Rotate counter clockwise</string>
+    <string name="crop_image_menu_rotate_right">Rotate</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="declined">Declined</string>
+    <string name="default_error">Unable to connect. Please try after sometime.</string>
+    <string name="default_message">Lorem ipsum is simply dummy text of the printing and typeseeting industry lorem ipsum</string>
+    <string name="default_web_client_id" translatable="false">366052618270-un8fu5m3uu431moie72vcati005spavg.apps.googleusercontent.com</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="district">City</string>
+    <string name="document_all_four_error_msg">Please select the all four document first</string>
+    <string name="document_uploaded">Document Uploaded</string>
+    <string name="document_verified">Document Verified</string>
+    <string name="done_dialog">Done</string>
+    <string name="email_address">Parent Email Address</string>
+    <string name="email_id">Email Id</string>
+    <string name="english">English</string>
+    <string name="enter_new_pin">Enter New Pin</string>
+    <string name="enter_otp">Enter OTP!</string>
+    <string name="enter_otp_below_number">We Have Sent OTP To The Below Number </string>
+    <string name="enter_otp_txt">Enter the OTP</string>
+    <string name="enter_pin">Enter Pin</string>
+    <string name="enter_set_below_number">We Have Set Pin For Your New Child </string>
+    <string name="enter_the_account_number">Enter the account number</string>
+    <string name="enter_the_confirm_pin">Enter the confirm pin</string>
+    <string name="enter_the_paytm_number">Enter the Paytm Number</string>
+    <string name="enter_the_pin">"Enter the pin"</string>
+    <string name="enter_the_pin_for_login">Enter the Pin for Login</string>
+    <string name="enter_the_upi_address">Enter the UPI Address</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_your_mobile_number">Enter your mobile number</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="exit_quiz">Exit Quiz</string>
+    <string name="facebook_app_id">376950950122226</string>
+    <string name="fetch_data">Fetching Data...</string>
+    <string name="fetch_quiz_data">Fetching Quiz Data...</string>
+    <string name="finish_quiz_txt">Are you sure you want to finish the quiz.</string>
+    <string name="finish_your_text">Finishing Your Test...</string>
+    <string name="firebase_database_url" translatable="false">https://auroscholarapp.firebaseio.com</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="forgot_pin">Forgot Pin?</string>
+    <string name="friends_ke_bina_kya_fun">Friends ke bina kya fun!</string>
+    <string name="friends_leadeboard">Friends \nLeaderboard</string>
+    <string name="gcm_defaultSenderId" translatable="false">366052618270</string>
+    <string name="gender">Student Gender<font color="#FF0000">*</font></string>
+    <string name="get_scholarship">Get Scholarship</string>
+    <string name="getting_webinar_slots">Getting Webinar\nSlots</string>
+    <string name="google_api_key" translatable="false">AIzaSyDzCM4cOe5GFZ0Rtl8Ficv7lXMJIJFChZQ</string>
+    <string name="google_app_id" translatable="false">1:366052618270:android:2dd48b074acac7ae167e0f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDzCM4cOe5GFZ0Rtl8Ficv7lXMJIJFChZQ</string>
+    <string name="google_storage_bucket" translatable="false">auroscholarapp.appspot.com</string>
+    <string name="grade_student">Grade :</string>
+    <string name="grade_student_new">Grade</string>
+    <string name="group">Group</string>
+    <string name="hey_enter_otp">Hey, Enter OTP!</string>
+    <string name="hey_enter_set">Hey, Set Username and Pin</string>
+    <string name="hi_there">Hi There!</string>
+    <string name="id_proof_back_side">ID Proof Back Side</string>
+    <string name="id_proof_front_side">ID Proof Front Side</string>
+    <string name="ideal_app_for_nyour_education">Ideal App For\nYour Education</string>
+    <string name="ifsc_code">IFSC Code</string>
+    <string name="impossible">It always seems impossible until it’s done.</string>
+    <string name="information">Information</string>
+    <string name="intent_phone_number">intentphoneNumber</string>
+    <string name="internet_check">Oops, No internet found.Please check your connection or try again.</string>
+    <string name="invite">Invite</string>
+    <string name="invite_by">Send Invite to Friend</string>
+    <string name="invite_friend_refrral">Hi! An exclusive invite just for you! Join me on AuroScholar App, challenge friends and get scholarship &amp; Certificates everyday! \n Click to accept my invitation &amp; Install App - ></string>
+    <string name="invite_them">Invite them</string>
+    <string name="it_will_available_soon">available soon</string>
+    <string name="keep_taking_quizzes_to_unlock_next_level">Keep taking quizzes to unlock next level.</string>
+    <string name="kyc_disclaimer_text_one">I/We hereby submit voluntarily at my/our own discretion, the copy of Aadhaar card/physical e-Aadhaar / masked Aadhaar /offline electronic Aadhaar XML as issued by UIDAI (Aadhaar),to Auro Scholar for the purpose of establishing my/our identity/address proof and; hereby consent to Auro Scholar for verification of my/our Aadhaar to establish its genuineness through Quick Response (QR) code embedded in the Aadhaar card or through such other acceptable manner as per UIDAI or under any Act or law from time to time.\n</string>
+    <string name="kyc_information">KYC Information</string>
+    <string name="kyc_verification_teacher">KYC Verification</string>
+    <string name="language">Language</string>
+    <string name="language_medium">Student School Language medium</string>
+    <string name="learn_with_our_partner_app">Learn with our partner app</string>
+    <string name="let_you_know">Once it`s Done,Will Let You Know</string>
+    <string name="login_id">Login Id</string>
+    <string name="login_to_your_account">Login or Signup</string>
+    <string name="login_with_otp">Login With OTP?</string>
+    <string name="logout">Logout</string>
+    <string name="message">Message</string>
+    <string name="mobile_number">Mobile Number<font color="#FF0000">*</font></string>
+    <string name="mobile_number_username">Mobile number/Username</string>
+    <string name="modify">Want To Modify Uploaded File</string>
+    <string name="more">More</string>
+    <string name="my_profile">Profile</string>
+    <string name="my_profile_parent">Parent Profile</string>
+    <string name="name">Name</string>
+    <string name="nav_auro_friends">Auro Friends</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_kyc">KYC</string>
+    <string name="nav_passport">Passport</string>
+    <string name="nave_back">Back</string>
+    <string name="next">Next</string>
+    <string name="no">No</string>
+    <string name="no_certificate_for_download">No Certificate for Download.</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="no_file_chosen">No File chosen</string>
+    <string name="no_student">No Student Added Yet in Group</string>
+    <string name="no_txt">NO</string>
+    <string name="not_receive_resend">Not Receive ? Resend</string>
+    <string name="not_register_msg">Seems like you are not registered with us, please proceed to signup.</string>
+    <string name="not_register_note_msg">Note: If you have registered with your username, please use that to login.</string>
+    <string name="not_showing_face">Your face is not visible. Please make sure you are in proper lighting.</string>
+    <string name="ok">OK</string>
+    <string name="once_it_s_done">Once It\'s Done, Will Let You Know</string>
+    <string name="opt_sent_number_txt">OTP sent on this number</string>
+    <string name="or">Or</string>
+    <string name="others">OTHERS</string>
+    <string name="otp_has_been_sent_to_this_number">OTP has been sent to this number</string>
+    <string name="otp_over_call">OTP Over Call</string>
+    <string name="parent_email">Email-ID</string>
+    <string name="parent_full_name">Full Name</string>
+    <string name="parent_gender">Gender</string>
+    <string name="parent_phone_number">Parent Phone Number</string>
+    <string name="parent_profile">Continue With Parent Profile</string>
+    <string name="parent_section">Parent Section</string>
+    <string name="partnerKey">cHsPa895adcc1632d4ea489b0006d4e72865f</string>
+    <string name="partner_menuauro">Partners</string>
+    <string name="passport_sub_title">Find The Quiz Details As Per Your Prefrence</string>
+    <string name="password">Password</string>
+    <string name="permission_error_msg">For taking the quiz camera permission is must.</string>
+    <string name="pick_image_intent_chooser_title">Select source</string>
+    <string name="pin_and_confirm_not_match">Pin and Confirm Pin not match</string>
+    <string name="please_enter_bank_account_number">Please Enter Bank Account Number</string>
+    <string name="please_enter_beneficiarry_name">Please Enter Beneficiary Name</string>
+    <string name="please_enter_ifsc_code">Please Enter IFSC Code</string>
+    <string name="please_enter_phone_number">Please enter phone number</string>
+    <string name="please_enter_the_mobile_number">Please enter the mobile number</string>
+    <string name="please_enter_valid_account_number">Please Enter Valid Account Number</string>
+    <string name="please_enter_valid_confirm_account_number">Plase Enter Valid Confirm Account Number</string>
+    <string name="please_enter_valid_ifsc_code">Please Enter valid IFSC Code</string>
+    <string name="please_enter_valid_phone_number">Please Enter Valid Mobile Number</string>
+    <string name="please_put_your_face_inside_the_box">Please put your face inside the box</string>
+    <string name="please_select_certificate">Please select the certificate first, using long press on it.</string>
+    <string name="please_upload_the_document">Please Upload the Document</string>
+    <string name="press_again_for_exit">Press again for exit</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy_auro">Privacy Policy</string>
+    <string name="proceed_to_signup">Proceed to signup</string>
+    <string name="processing">Processing...</string>
+    <string name="project_id" translatable="false">auroscholarapp</string>
+    <string name="psp_not_register">PSP is not registered</string>
+    <string name="question_bank_powered_by_cambridge">Maths Questions powered by Cambridge</string>
+    <string name="quiz_disclaimer_text_one">I/we hereby accept the allowance of the Auro Scholar application being used by our child and grant our consent to take pictures in the quiz for proctoring/invigilation purposes. Auro Scholar inherits the confidentiality of the information provided.</string>
+    <string name="quiz_error">Due to a technical issue, quiz is not launched. Please try again later.</string>
+    <string name="quiz_exit_txt">Are you sure you want to quit the quiz ?</string>
+    <string name="quiz_instruction">Quiz Instructions</string>
+    <string name="quiz_internet">No internet connection. Please try again.</string>
+    <string name="quiz_internet_2">No internet connection, Please connect to the internet to complete the quiz.</string>
+    <string name="quiz_is_not_apporved">Quiz is not Approved</string>
+    <string name="quiz_verification">Quiz Verification</string>
+    <string name="re_upload">Re-Upload</string>
+    <string name="re_upload_ndocuments">Re-upload\nDocuments ?</string>
+    <string name="recent">Recent</string>
+    <string name="resend">Resend</string>
+    <string name="resend_code">Resend Code</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="retake_quiz">Retake Quiz</string>
+    <string name="retry">Retry</string>
+    <string name="rs">₹</string>
+    <string name="save">Save</string>
+    <string name="save_amp_next"><![CDATA[Save & Next]]></string>
+    <string name="save_changes">SAVE CHANGES</string>
+    <string name="save_more_details">Save More Details?</string>
+    <string name="save_next">Save and Next</string>
+    <string name="save_submit">Save and Submit</string>
+    <string name="saved">The changes were saved successfully</string>
+    <string name="saving">Saving...</string>
+    <string name="scholarship">Scholarship</string>
+    <string name="scholarship_approved">Scholarship Approved</string>
+    <string name="scholarship_happen">You are almost there! Let\'s make the scholarship happen!</string>
+    <string name="scholarship_transfer">Scholarship Transfer</string>
+    <string name="school">School</string>
+    <string name="school_id_card">School ID Card</string>
+    <string name="school_ids">School ID Cards</string>
+    <string name="school_name">School Name<font color="#FF0000">*</font></string>
+    <string name="school_type">Student School Type</string>
+    <string name="score_msg">Up to ₹1000 Scholarship, ₹50 per quiz if you score more than 8/10</string>
+    <string name="select_your_grade">Select Your Grade</string>
+    <string name="send_otp">SEND OTP</string>
+    <string name="set_a_new_password">Set a New Password</string>
+    <string name="set_new_pin">Set New Pin</string>
+    <string name="set_password">Set Password</string>
+    <string name="set_pin">Set Pin</string>
+    <string name="set_username">Set Username</string>
+    <string name="share_with_friends">Share with friends</string>
+    <string name="share_with_other">Invite Student</string>
+    <string name="skip_for_now"><u>Skip For Now</u></string>
+    <string name="start_now">Start Now</string>
+    <string name="state">State<font color="#FF0000"/></string>
+    <string name="student_full_name">Student Full Name</string>
+    <string name="student_gender">Student Gender</string>
+    <string name="student_passport">Student Passport</string>
+    <string name="student_phone_number">Parent Phone Number<font color="#FF0000">*</font></string>
+    <string name="students_list">Students List</string>
+    <string name="sub_partner_title">Looking for some fun lessons? Check out and sharpen your knowledge with these apps.</string>
+    <string name="subject">Subject</string>
+    <string name="subject_brief">Please select 5 Subjects of your choice</string>
+    <string name="subjects_you_teach_till">Subjects You Teach Till 12th<font color="#FF0000">*</font></string>
+    <string name="submit">Submit</string>
+    <string name="success_fully_save">Successfully Save</string>
+    <string name="sucessfully_uploaded">Sucessfully Uploaded</string>
+    <string name="support_jpg">Supports : JPG, PNG, JPEG</string>
+    <string name="sure_to_logout">Are you sure you want to logout?</string>
+    <string name="taking_private_tutions">Student Taking Private Tutions ?</string>
+    <string name="taking_type">Tution Type</string>
+    <string name="teacher_full_name">Teacher Full Name</string>
+    <string name="teacher_name">Teacher Name <font color="#FF0000">*</font></string>
+    <string name="teacher_phone_number">Teacher Phone Number</string>
+    <string name="teacher_profile">Teacher Profile</string>
+    <string name="teacher_share_msg">Hi, I have just referred you to get Scholarship  on AuroScholar App! \nTake quiz and get Scholarship Certificate every month. \nDownload App -  </string>
+    <string name="terms_of_service">Terms &amp; Conditions</string>
+    <string name="test_reports">Test Reports</string>
+    <string name="test_taken_by_unique_students">Test Taken By Unique Students</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_web">WebActivity</string>
+    <string name="to_add_an_account">To add an account you have to follow the following steps</string>
+    <string name="total_points">Total Points :</string>
+    <string name="total_students_in_class">Total Students In Class</string>
+    <string name="total_test_taken">Total Test Taken</string>
+    <string name="tranfer_money">Transfer Scholarship</string>
+    <string name="transfer_scholarship">Transfer Scholarship</string>
+    <string name="transfer_to_bank_account">Transfer Scholarship to The Bank Account</string>
+    <string name="transfer_to_paytm_account">Transfer Scholarship To The Paytm Account</string>
+    <string name="transfer_to_upi_account">Transfer Scholarship To The UPI Account</string>
+    <string name="update">Update</string>
+    <string name="updateMessage">We have worked harder to improve the app, Please click the button below to update.</string>
+    <string name="update_auroscholar">Update Auroscholar?</string>
+    <string name="upi_transfer">UPI Transfer</string>
+    <string name="uplaod_txt">Upload</string>
+    <string name="upload">Upload</string>
+    <string name="upload_doc_text_msg">If you  face any issues please call us at +919667480783</string>
+    <string name="upload_document">Upload KYC Document</string>
+    <string name="upload_govt_id">Aadhar Front Side</string>
+    <string name="upload_govt_id_back_side">Aadhar Back Side</string>
+    <string name="upload_picture">Upload Your Photo</string>
+    <string name="upload_profile_pic">Upload Your Photo</string>
+    <string name="upload_school_id">School ID Card</string>
+    <string name="upload_verification">KYC Verification</string>
+    <string name="upload_your_photo_kyc">• Upload Your Photo</string>
+    <string name="uploaded">Uploaded</string>
+    <string name="userOtp">userOtp</string>
+    <string name="user_id">UserId</string>
+    <string name="username">Username</string>
+    <string name="verification_is_in_process">Verification is in process</string>
+    <string name="verification_pending">Verification in Process</string>
+    <string name="wallet">Wallet</string>
+    <string name="wallet_cash">Wallet Cash :</string>
+    <string name="wallet_info">Wallet Info</string>
+    <string name="wallet_subtitle">We Would Like To Tell You About Our Partners</string>
+    <string name="want_to_quit_quiz">Please confirm if you want to end the quiz.</string>
+    <string name="we_sent_otp_to_the_below_number">Enter Your Phone number for OTP</string>
+    <string name="welcome">Welcome!</string>
+    <string name="winning_quiz">Winning Quiz</string>
+    <string name="wl_amount">₹100.00</string>
+    <string name="wl_amount_rejected">Scholarship Rejected</string>
+    <string name="wl_payment_in_process">Transfer In Process</string>
+    <string name="wl_scholarship_amounta_approved">Scholarship Approved</string>
+    <string name="wl_scholarship_disbursed">Scholarship Disbursed</string>
+    <string name="wl_verification_in_process">Verification In Process</string>
+    <string name="yes">Yes</string>
+    <string name="you_can_resend_in">You can resend OTP in </string>
+    <string name="you_can_resend_otp_in">You can resend OTP in</string>
+    <string name="you_have_scored">You Have Scored</string>
+    <string name="you_will_see_transfer">You will see transfer option after your document is verified</string>
+    <string name="your_certificates">Your Certificates</string>
+    <string name="your_profile_is_verified">Your profile is verified</string>
+    <string name="your_scholarship_status">Your Scholarship status</string>
+    <string name="your_subjects">Your Subjects</string>
+    <string name="your_wallet">Your Wallet</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppThemeNew" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+    <style name="FinestWebViewTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/finestWhite</item>
+        <item name="colorPrimaryDark">@color/finestGray</item>
+        <item name="colorAccent">@color/finestBlack</item>
+        <item name="android:textColorPrimary">@color/finestBlack</item>
+        <item name="android:textColorSecondary">@color/finestSilver</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+    <style name="FullWidth.Dialog" parent="Theme.AppCompat.DayNight.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--<item name="android:windowAnimationStyle">@style/DialogAnimation</item>-->
+    </style>
+    <style name="HintText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/taupe</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+
+        <item name="hintTextAppearance">@style/HintText</item>
+        <item name="errorTextAppearance">@color/red</item>
+        <item name="android:textColor">@color/color_dim_grey</item>
+        <item name="android:textColorHint">@color/color_dim_grey</item>
+        <item name="colorControlNormal">@color/color_dim_grey</item>
+        <item name="colorControlActivated">@color/color_dim_grey</item>
+        <item name="colorControlHighlight">@color/color_dim_grey</item>
+
+    </style>
+    <style name="SpinnerTheme" parent="android:Widget.Spinner">
+        <item name="android:background">@drawable/sppiner_background</item>
+    </style>
+    <style name="TextInputLayout" parent="TextAppearance.AppCompat">
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:textColorHint">@color/color_dim_grey</item>
+        <item name="colorControlNormal">@color/color_dim_grey</item>
+        <item name="colorControlActivated">@color/color_dim_grey</item>
+        <item name="colorControlHighlight">@color/color_dim_grey </item>
+        <item name="android:textSize">@dimen/_8sdp</item>
+    </style>
+    <style name="TextInputLayoutExposeStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu">
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeColor">@color/auro_border_blue</item>
+
+        <item name="boxCornerRadiusBottomEnd">@dimen/_18sdp</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/_18sdp</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/_18sdp</item>
+        <item name="boxCornerRadiusTopStart">@dimen/_18sdp</item>
+        <item name="hintTextAppearance">@style/HintText</item>
+        <item name="errorTextAppearance">@color/red</item>
+
+        <item name="android:textColor">@color/auro_border_blue</item>
+        <item name="android:textColorHint">@color/auro_border_blue</item>
+        <item name="colorControlNormal">@color/auro_border_blue</item>
+        <item name="colorControlActivated">@color/auro_border_blue</item>
+        <item name="colorControlHighlight">@color/auro_border_blue</item>
+    </style>
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeColor">@color/auro_border_blue</item>
+
+        <item name="boxCornerRadiusBottomEnd">@dimen/_18sdp</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/_18sdp</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/_18sdp</item>
+        <item name="boxCornerRadiusTopStart">@dimen/_18sdp</item>
+        <item name="hintTextAppearance">@style/HintText</item>
+        <item name="errorTextAppearance">@color/red</item>
+
+        <item name="android:textColor">@color/auro_border_blue</item>
+        <item name="android:textColorHint">@color/auro_border_blue</item>
+        <item name="colorControlNormal">@color/auro_border_blue</item>
+        <item name="colorControlActivated">@color/auro_border_blue</item>
+        <item name="colorControlHighlight">@color/auro_border_blue</item>
+    </style>
+    <style name="Widget.BottomNavigationStudent" parent="Widget.Design.BottomNavigationView">
+    <!--
+    <item name="fontFamily">@font/opensans_regular</item>
+-->
+        <item name="android:actionMenuTextColor">@color/txtDarkGrey</item>
+        <item name="android:textSize">@dimen/_7sdp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:minHeight">0dp</item>
+    </style>
+    <style name="Widget.BottomNavigationView" parent="Widget.Design.BottomNavigationView">
+        <!--
+        <item name="fontFamily">@font/opensans_regular</item>
+-->
+        <item name="android:textSize">@dimen/_7sdp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:minHeight">0dp</item>
+    </style>
+    <style name="Widget.BottomNavigationViewSelect" parent="Widget.Design.BottomNavigationView">
+        <item name="android:textSize">@dimen/_8sdp</item>
+        <!-- <item name="fontFamily">@font/opensans_regular</item>-->
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/toolbar_pink</item>
+    </style>
+    <declare-styleable name="CropImageView">
+        <attr name="cropGuidelines">
+            <enum name="off" value="0"/>
+            <enum name="onTouch" value="1"/>
+            <enum name="on" value="2"/>
+        </attr>
+        <attr name="cropScaleType">
+            <enum name="fitCenter" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="centerCrop" value="2"/>
+            <enum name="centerInside" value="3"/>
+        </attr>
+        <attr name="cropShape">
+            <enum name="rectangle" value="0"/>
+            <enum name="oval" value="1"/>
+        </attr>
+        <attr format="boolean" name="cropAutoZoomEnabled"/>
+        <attr format="integer" name="cropMaxZoom"/>
+        <attr format="boolean" name="cropMultiTouchEnabled"/>
+        <attr format="boolean" name="cropFixAspectRatio"/>
+        <attr format="integer" name="cropAspectRatioX"/>
+        <attr format="integer" name="cropAspectRatioY"/>
+        <attr format="float" name="cropInitialCropWindowPaddingRatio"/>
+        <attr format="dimension" name="cropBorderLineThickness"/>
+        <attr format="color" name="cropBorderLineColor"/>
+        <attr format="dimension" name="cropBorderCornerThickness"/>
+        <attr format="dimension" name="cropBorderCornerOffset"/>
+        <attr format="dimension" name="cropBorderCornerLength"/>
+        <attr format="color" name="cropBorderCornerColor"/>
+        <attr format="dimension" name="cropGuidelinesThickness"/>
+        <attr format="color" name="cropGuidelinesColor"/>
+        <attr format="color" name="cropBackgroundColor"/>
+        <attr format="dimension" name="cropSnapRadius"/>
+        <attr format="dimension" name="cropTouchRadius"/>
+        <attr format="boolean" name="cropSaveBitmapToInstanceState"/>
+        <attr format="boolean" name="cropShowCropOverlay"/>
+        <attr format="boolean" name="cropShowProgressBar"/>
+        <attr format="dimension" name="cropMinCropWindowWidth"/>
+        <attr format="dimension" name="cropMinCropWindowHeight"/>
+        <attr format="float" name="cropMinCropResultWidthPX"/>
+        <attr format="float" name="cropMinCropResultHeightPX"/>
+        <attr format="float" name="cropMaxCropResultWidthPX"/>
+        <attr format="float" name="cropMaxCropResultHeightPX"/>
+        <attr format="boolean" name="cropFlipHorizontally"/>
+        <attr format="boolean" name="cropFlipVertically"/>
+    </declare-styleable>
+    <declare-styleable name="DropDownView">
+        <attr format="dimension" name="filter_height"/>
+        <attr format="dimension" name="filter_text_size"/>
+        <attr format="reference" name="filter_text_color"/>
+        <attr format="reference" name="filter_bar_background_color"/>
+        <attr format="dimension" name="filter_text_arrow_padding"/>
+        <attr format="dimension" name="arrow_width"/>
+        <attr format="dimension" name="arrow_height"/>
+        <attr format="reference" name="arrow_drawable"/>
+        <attr format="boolean" name="arrow_rotate"/>
+        <attr format="dimension" name="divider_height"/>
+        <attr format="reference" name="divider_color"/>
+        <attr format="dimension" name="dropDownItem_height"/>
+        <attr format="dimension" name="dropDownItem_text_size"/>
+        <attr format="dimension" name="dropDownItem_text_size_selected"/>
+        <attr format="reference" name="dropDownItem_text_color"/>
+        <attr format="reference" name="dropDownItem_text_color_selected"/>
+        <attr format="reference" name="dropDownItem_background_color"/>
+        <attr format="reference" name="dropDownItem_background_color_selected"/>
+        <attr format="boolean" name="expand_dim_background"/>
+        <attr format="reference" name="dim_background_color"/>
+        <attr format="boolean" name="expand_include_selected_item"/>
+        <attr format="string" name="placeholder_text"/>
+        <attr format="reference" name="dropdown_typeface"/>
+        <attr format="integer" name="dropdown_animation_duration"/>
+    </declare-styleable>
+    <declare-styleable name="ExpandableTextView">
+        <attr format="integer" name="animation_duration"/>
+    </declare-styleable>
+    <declare-styleable name="HorizontalCalendarView">
+        <!-- Default text color for all texts -->
+        <attr format="color" name="textColorNormal"/>
+        <!-- Default top text color -->
+        <attr format="color" name="colorTopText"/>
+        <!-- Default Middle text color -->
+        <attr format="color" name="colorMiddleText"/>
+        <!-- Default Bottom text color -->
+        <attr format="color" name="colorBottomText"/>
+
+        <!-- Selected item's text color for all texts -->
+        <attr format="color" name="textColorSelected"/>
+        <!-- Selected item's top text color -->
+        <attr format="color" name="colorTopTextSelected"/>
+        <!-- Selected item's Middle text color -->
+        <attr format="color" name="colorMiddleTextSelected"/>
+        <!-- Selected item's Bottom text color -->
+        <attr format="color" name="colorBottomTextSelected"/>
+        <!-- Selected item's background drawable -->
+        <attr format="reference" name="selectedDateBackground"/>
+
+        <!-- Background color for selector bar. -->
+        <attr format="color" name="selectorColor"/>
+
+        <!-- Top text size -->
+        <attr format="dimension" name="sizeTopText"/>
+        <!-- Middle text size -->
+        <attr format="dimension" name="sizeMiddleText"/>
+        <!-- Bottom text size -->
+        <attr format="dimension" name="sizeBottomText"/>
+
+    </declare-styleable>
+    <declare-styleable name="OtpView">
+    <attr name="android:inputType"/>
+    <attr name="android:textColor"/>
+    <attr format="color" name="text_background_color"/>
+    <attr format="string" name="otp"/>
+    <attr format="integer" name="length"/>
+    <attr format="dimension" name="width"/>
+    <attr format="dimension" name="height"/>
+    <attr format="dimension" name="space"/>
+    <attr format="dimension" name="space_left"/>
+    <attr format="dimension" name="space_right"/>
+    <attr format="dimension" name="space_top"/>
+    <attr format="dimension" name="space_bottom"/>
+    <attr format="color" name="hint_color"/>
+    <attr format="string" name="hint"/>
+  </declare-styleable>
+    <declare-styleable name="PanoramaImageView">
+            <attr format="boolean" name="piv_enablePanoramaMode"/>
+            <attr format="boolean" name="piv_invertScrollDirection"/>
+            <attr format="boolean" name="piv_show_scrollbar"/>
+        </declare-styleable>
+    <declare-styleable name="RPView">
+        <attr format="string" name="Font"/>
+        <attr format="boolean" name="starPin"/>
+    </declare-styleable>
+</resources>

@@ -152,8 +152,6 @@
                             android:textSize="@dimen/_14sdp"
                             android:textStyle="bold" />
                     </LinearLayout>
-
-
                     <com.auro.application.core.util.uiwidget.RPTextView
                         android:id="@+id/bt_done_new"
                         android:layout_width="match_parent"
