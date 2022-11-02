@@ -99,6 +99,7 @@ public class FragmentKycInfoScreenBindingImpl extends FragmentKycInfoScreenBindi
             , (com.auro.application.core.util.uiwidget.RPTextView) bindings[18]
             );
         this.errorConstraint.setTag(null);
+        setContainedBinding(this.errorLayout);
         this.mboundView0 = (android.widget.RelativeLayout) bindings[0];
         setRootTag(root);
         // listeners

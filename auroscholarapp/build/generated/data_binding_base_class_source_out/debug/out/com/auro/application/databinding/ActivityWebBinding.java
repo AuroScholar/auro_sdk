@@ -37,10 +37,8 @@ public abstract class ActivityWebBinding extends ViewDataBinding {
     super(_bindingComponent, _root, _localFieldCount);
     this.errorConstraint = errorConstraint;
     this.errorLayout = errorLayout;
-    setContainedBinding(this.errorLayout);
     this.progressBar = progressBar;
     this.toolbarLayout = toolbarLayout;
-    setContainedBinding(this.toolbarLayout);
     this.webView = webView;
   }
 

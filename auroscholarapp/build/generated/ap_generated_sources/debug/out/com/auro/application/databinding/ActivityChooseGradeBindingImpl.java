@@ -50,6 +50,8 @@ public class ActivityChooseGradeBindingImpl extends ActivityChooseGradeBinding  
             , (com.auro.application.databinding.UserSelectGradeBottomSheetBinding) bindings[1]
             );
         this.mboundView0 = (android.widget.RelativeLayout) bindings[0];
+        setContainedBinding(this.progressbar);
+        setContainedBinding(this.userSelectionSheet);
         setRootTag(root);
         // listeners
         invalidateAll();

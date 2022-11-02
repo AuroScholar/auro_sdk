@@ -3,7 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.auro.application" >
 
-    <uses-sdk android:minSdkVersion="1" />
+    <uses-sdk
+        android:minSdkVersion="1"
+        android:targetSdkVersion="1"
+        tools:overrideLibrary="com.github.dhaval2404.imagepicker,com.pierfrancescosoffritti.androidyoutubeplayer, androidx.camera.view , androidx.camera.extensions,androidx.camera.camera2, androidx.camera.lifecycle,androidx.camera.core" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -29,6 +32,9 @@
 
 
     <!-- <uses-feature android:name="android.hardware.camera.autofocus" android:required="true"/> -->
+    <!-- <uses-feature -->
+    <!-- android:name="android.hardware.camera.autofocus" -->
+    <!-- android:required="true" /> -->
     <uses-feature
         android:name="android.hardware.camera.any"
         android:required="true" />
@@ -58,6 +64,8 @@
 
         <!-- android:excludeFromRecents="false" -->
         <!-- android:preserveLegacyExternalStorage="true" -->
+        <!-- <application -->
+        <!-- android:usesCleartextTraffic="true"> -->
         <activity
             android:name="com.auro.application.ShowActivity"
             android:exported="false" />
@@ -265,7 +273,7 @@
 
         <service
             android:name="com.auro.application.util.firebase.FirebaseMessagingService"
-            android:exported="false" >
+            android:exported="true" >
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>

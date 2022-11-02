@@ -96,6 +96,8 @@ public class QuizTestNativeLayoutBindingImpl extends QuizTestNativeLayoutBinding
             , (com.auro.application.core.util.uiwidget.RPTextView) bindings[13]
             );
         this.errorConstraint.setTag(null);
+        setContainedBinding(this.errorLayout);
+        setContainedBinding(this.headerTopParent);
         this.mboundView0 = (android.widget.LinearLayout) bindings[0];
         this.mboundView1 = (android.widget.RelativeLayout) bindings[1];
         this.mboundView1.setTag(null);

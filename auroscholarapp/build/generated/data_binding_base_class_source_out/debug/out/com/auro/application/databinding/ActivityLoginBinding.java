@@ -114,7 +114,6 @@ public abstract class ActivityLoginBinding extends ViewDataBinding {
     this.pinIcon = pinIcon;
     this.pinlayout = pinlayout;
     this.progressbar = progressbar;
-    setContainedBinding(this.progressbar);
     this.setpassword = setpassword;
     this.termsCondition = termsCondition;
     this.titleFirst = titleFirst;

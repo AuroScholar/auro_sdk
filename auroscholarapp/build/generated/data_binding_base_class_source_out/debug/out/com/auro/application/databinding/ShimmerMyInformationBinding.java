@@ -140,7 +140,6 @@ public abstract class ShimmerMyInformationBinding extends ViewDataBinding {
     this.constantLayout = constantLayout;
     this.errorConstraint = errorConstraint;
     this.errorLayout = errorLayout;
-    setContainedBinding(this.errorLayout);
     this.imageView5 = imageView5;
     this.languageLayout = languageLayout;
     this.linearLayout12 = linearLayout12;
@@ -149,7 +148,6 @@ public abstract class ShimmerMyInformationBinding extends ViewDataBinding {
     this.mainHeadtop = mainHeadtop;
     this.mainParentLayout = mainParentLayout;
     this.progressbar = progressbar;
-    setContainedBinding(this.progressbar);
     this.rlBookMySeat = rlBookMySeat;
     this.shimmerMyClassroom = shimmerMyClassroom;
     this.shimmerViewQuiz = shimmerViewQuiz;

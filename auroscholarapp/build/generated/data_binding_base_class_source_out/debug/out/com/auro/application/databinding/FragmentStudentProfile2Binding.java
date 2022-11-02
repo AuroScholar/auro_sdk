@@ -757,7 +757,6 @@ public abstract class FragmentStudentProfile2Binding extends ViewDataBinding {
     this.editsearch = editsearch;
     this.errorConstraint = errorConstraint;
     this.errorLayout = errorLayout;
-    setContainedBinding(this.errorLayout);
     this.etSchoolboard = etSchoolboard;
     this.etSchoolmedium = etSchoolmedium;
     this.etSchoolname = etSchoolname;

@@ -100,7 +100,6 @@ public abstract class ActivityRegisterUserBinding extends ViewDataBinding {
     this.passwordIcon = passwordIcon;
     this.passwordlayout = passwordlayout;
     this.progressbar = progressbar;
-    setContainedBinding(this.progressbar);
     this.termsCondition = termsCondition;
     this.termsConditiond = termsConditiond;
     this.titleFirst = titleFirst;

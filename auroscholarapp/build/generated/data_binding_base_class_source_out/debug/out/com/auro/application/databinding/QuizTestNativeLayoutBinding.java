@@ -140,13 +140,11 @@ public abstract class QuizTestNativeLayoutBinding extends ViewDataBinding {
     this.cardView = cardView;
     this.errorConstraint = errorConstraint;
     this.errorLayout = errorLayout;
-    setContainedBinding(this.errorLayout);
     this.exitBt = exitBt;
     this.faceImageView = faceImageView;
     this.faceTextureView = faceTextureView;
     this.finishNextBt = finishNextBt;
     this.headerTopParent = headerTopParent;
-    setContainedBinding(this.headerTopParent);
     this.llquestion = llquestion;
     this.mainContentLayout = mainContentLayout;
     this.parentScrollview = parentScrollview;

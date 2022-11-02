@@ -104,7 +104,6 @@ public abstract class FragmentWalletInfoDetailBinding extends ViewDataBinding {
     this.constantLayout = constantLayout;
     this.errorConstraint = errorConstraint;
     this.errorLayout = errorLayout;
-    setContainedBinding(this.errorLayout);
     this.imageView5 = imageView5;
     this.imageView6 = imageView6;
     this.imageViewLanguage = imageViewLanguage;

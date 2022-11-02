@@ -35,7 +35,6 @@ public abstract class FragmentUpCommingBookBinding extends ViewDataBinding {
     this.bookedTab = bookedTab;
     this.errorConstraint = errorConstraint;
     this.errorLayout = errorLayout;
-    setContainedBinding(this.errorLayout);
     this.rvChooseSlot = rvChooseSlot;
   }
 

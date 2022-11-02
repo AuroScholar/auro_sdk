@@ -63,7 +63,6 @@ public abstract class ActivityValidateLoginBinding extends ViewDataBinding {
     this.llinputPhone = llinputPhone;
     this.passwordLayout = passwordLayout;
     this.progressbar = progressbar;
-    setContainedBinding(this.progressbar);
     this.termsCondition = termsCondition;
     this.textNewNumber = textNewNumber;
     this.titleFirst = titleFirst;

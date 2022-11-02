@@ -54,13 +54,11 @@ public abstract class QuizTestLayoutBinding extends ViewDataBinding {
     this.dummayImage = dummayImage;
     this.errorConstraint = errorConstraint;
     this.errorLayout = errorLayout;
-    setContainedBinding(this.errorLayout);
     this.faceImageView = faceImageView;
     this.faceTextureView = faceTextureView;
     this.previewView = previewView;
     this.progressBar = progressBar;
     this.toolbarLayout = toolbarLayout;
-    setContainedBinding(this.toolbarLayout);
     this.webView = webView;
   }
 

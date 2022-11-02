@@ -59,7 +59,9 @@ public class FragmentTeacherSaveDetailBindingImpl extends FragmentTeacherSaveDet
             , (com.google.android.material.textfield.TextInputLayout) bindings[6]
             , (com.auro.application.databinding.ToolbarHeaderLayoutBinding) bindings[1]
             );
+        setContainedBinding(this.headerParent);
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
+        setContainedBinding(this.toolbarLayout);
         setRootTag(root);
         // listeners
         invalidateAll();

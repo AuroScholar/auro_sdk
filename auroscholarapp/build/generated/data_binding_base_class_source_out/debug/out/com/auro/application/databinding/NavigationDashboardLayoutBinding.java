@@ -51,7 +51,6 @@ public abstract class NavigationDashboardLayoutBinding extends ViewDataBinding {
     this.homeContainer = homeContainer;
     this.homeView = homeView;
     this.progressbar = progressbar;
-    setContainedBinding(this.progressbar);
   }
 
   @NonNull

@@ -101,7 +101,6 @@ public abstract class FragmentCertificateBinding extends ViewDataBinding {
     this.downloadIcon = downloadIcon;
     this.errorConstraint = errorConstraint;
     this.errorLayout = errorLayout;
-    setContainedBinding(this.errorLayout);
     this.getScholarshipText = getScholarshipText;
     this.headLayout = headLayout;
     this.imageView5 = imageView5;

@@ -67,6 +67,7 @@ public class PartnersLayoutBindingImpl extends PartnersLayoutBinding  {
             , (android.widget.ProgressBar) bindings[17]
             );
         this.errorConstraint.setTag(null);
+        setContainedBinding(this.errorLayout);
         this.mboundView0 = (android.widget.RelativeLayout) bindings[0];
         setRootTag(root);
         // listeners

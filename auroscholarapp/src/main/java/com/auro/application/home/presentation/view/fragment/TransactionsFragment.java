@@ -1328,10 +1328,13 @@ public class TransactionsFragment extends BaseFragment implements View.OnClickLi
 
         String month = "" + spinnerMonth.getYear() + monNum;
         String suserid = AuroAppPref.INSTANCE.getModelInstance().getStudentData().getUserId();
+        String langid = AuroAppPref.INSTANCE.getModelInstance().getUserLanguageId();
+
         AppLogger.e("callTransportApi-", month);
         HashMap<String,String> map_data = new HashMap<>();
         map_data.put("user_id",suserid);
         map_data.put("month",month);
+        map_data.put("user_prefered_language_id",langid);
 
 
         RemoteApi.Companion.invoke().getQuizMonthSubject(map_data)

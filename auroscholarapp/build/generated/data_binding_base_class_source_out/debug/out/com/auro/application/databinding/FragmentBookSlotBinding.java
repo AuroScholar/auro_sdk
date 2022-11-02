@@ -35,7 +35,6 @@ public abstract class FragmentBookSlotBinding extends ViewDataBinding {
     this.backButton = backButton;
     this.bookFrame = bookFrame;
     this.bottomsheet = bottomsheet;
-    setContainedBinding(this.bottomsheet);
     this.coordinatorLayout = coordinatorLayout;
   }
 

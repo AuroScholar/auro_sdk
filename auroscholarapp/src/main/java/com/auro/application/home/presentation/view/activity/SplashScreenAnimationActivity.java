@@ -828,7 +828,7 @@ public class SplashScreenAnimationActivity extends BaseActivity {
                 binding.customProgressLayout.textMsg.setVisibility(View.VISIBLE);
                 binding.customProgressLayout.textMsg.setText(msg);
                 binding.customProgressLayout.btRetry.setVisibility(View.VISIBLE);
-                binding.customProgressLayout.background.setBackgroundColor(this.getResources().getColor(R.color.red));
+                binding.customProgressLayout.background.setBackgroundColor(this.getResources().getColor(R.color.color_red));
                 binding.customProgressLayout.btRetry.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {

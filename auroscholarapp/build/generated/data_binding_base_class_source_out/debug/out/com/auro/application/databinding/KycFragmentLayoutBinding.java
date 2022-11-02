@@ -117,11 +117,9 @@ public abstract class KycFragmentLayoutBinding extends ViewDataBinding {
     this.btUploadAll = btUploadAll;
     this.buttonUploadLayout = buttonUploadLayout;
     this.cambridgeHeading = cambridgeHeading;
-    setContainedBinding(this.cambridgeHeading);
     this.documentUploadRecyclerview = documentUploadRecyclerview;
     this.errorConstraint = errorConstraint;
     this.errorLayout = errorLayout;
-    setContainedBinding(this.errorLayout);
     this.getScholarshipText = getScholarshipText;
     this.kycbackground = kycbackground;
     this.mainParentLayout = mainParentLayout;
@@ -130,16 +128,11 @@ public abstract class KycFragmentLayoutBinding extends ViewDataBinding {
     this.progressBar2 = progressBar2;
     this.resultImage = resultImage;
     this.stepFour = stepFour;
-    setContainedBinding(this.stepFour);
     this.stepOne = stepOne;
-    setContainedBinding(this.stepOne);
     this.stepThree = stepThree;
-    setContainedBinding(this.stepThree);
     this.stepTwo = stepTwo;
-    setContainedBinding(this.stepTwo);
     this.swipeRefreshLayout = swipeRefreshLayout;
     this.toolbarLayout = toolbarLayout;
-    setContainedBinding(this.toolbarLayout);
     this.transparet = transparet;
     this.viewLine = viewLine;
     this.walletBalText = walletBalText;

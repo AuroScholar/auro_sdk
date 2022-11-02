@@ -99,9 +99,11 @@ public class FragmentClassRoomGroupBindingImpl extends FragmentClassRoomGroupBin
             , (android.widget.LinearLayout) bindings[19]
             );
         this.errorConstraint.setTag(null);
+        setContainedBinding(this.errorLayout);
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView2 = (com.auro.application.databinding.FullScreenProgressClassBinding) bindings[4];
         setContainedBinding(this.mboundView2);
+        setContainedBinding(this.progressbar);
         this.shimmerMyClassroom.setTag(null);
         setRootTag(root);
         // listeners

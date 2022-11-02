@@ -110,6 +110,7 @@ public class ShimmerMyInformationBindingImpl extends ShimmerMyInformationBinding
             , (com.auro.application.util.AutoScrollViewPager) bindings[18]
             );
         this.errorConstraint.setTag(null);
+        setContainedBinding(this.errorLayout);
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView1 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[1];
         this.mboundView1.setTag(null);
@@ -117,6 +118,7 @@ public class ShimmerMyInformationBindingImpl extends ShimmerMyInformationBinding
         setContainedBinding(this.mboundView2);
         this.mboundView4 = (com.auro.application.databinding.ShimmerMyClassroomLayoutBinding) bindings[7];
         setContainedBinding(this.mboundView4);
+        setContainedBinding(this.progressbar);
         this.shimmerMyClassroom.setTag(null);
         this.shimmerViewQuiz.setTag(null);
         setRootTag(root);

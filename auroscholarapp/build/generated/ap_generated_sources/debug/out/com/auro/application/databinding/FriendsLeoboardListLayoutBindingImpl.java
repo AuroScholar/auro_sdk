@@ -105,7 +105,10 @@ public class FriendsLeoboardListLayoutBindingImpl extends FriendsLeoboardListLay
             , (android.widget.TextView) bindings[23]
             );
         this.errorConstraint.setTag(null);
+        setContainedBinding(this.errorLayout);
         this.friendBgImgLayout.setTag(null);
+        setContainedBinding(this.headerParent);
+        setContainedBinding(this.headerTopParent);
         this.mboundView0 = (android.widget.RelativeLayout) bindings[0];
         this.mboundView1 = (android.widget.LinearLayout) bindings[1];
         this.mboundView1.setTag(null);
@@ -113,7 +116,9 @@ public class FriendsLeoboardListLayoutBindingImpl extends FriendsLeoboardListLay
         this.mboundView2.setTag(null);
         this.mboundView3 = (com.auro.application.databinding.QuizHomeShimmerLayoutBinding) bindings[8];
         setContainedBinding(this.mboundView3);
+        setContainedBinding(this.progressbar);
         this.shimmerViewQuiz.setTag(null);
+        setContainedBinding(this.toolbarLayout);
         setRootTag(root);
         // listeners
         invalidateAll();

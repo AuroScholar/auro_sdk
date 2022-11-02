@@ -58,9 +58,7 @@ public abstract class ActivityChooseGradeBinding extends ViewDataBinding {
     this.imageView6 = imageView6;
     this.mainTopLayout = mainTopLayout;
     this.progressbar = progressbar;
-    setContainedBinding(this.progressbar);
     this.userSelectionSheet = userSelectionSheet;
-    setContainedBinding(this.userSelectionSheet);
   }
 
   public abstract void setViewModel(@Nullable ChooseGradeViewModel viewModel);

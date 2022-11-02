@@ -110,7 +110,9 @@ public class FragmentInformationDashboardBindingImpl extends FragmentInformation
             , (com.auro.application.util.AutoScrollViewPager) bindings[20]
             );
         this.errorConstraint.setTag(null);
+        setContainedBinding(this.errorLayout);
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
+        setContainedBinding(this.progressbar);
         setRootTag(root);
         // listeners
         invalidateAll();

@@ -52,7 +52,6 @@ public abstract class EnterNumberActivityLayoutBinding extends ViewDataBinding {
     this.leftCornerImage = leftCornerImage;
     this.numberEdit = numberEdit;
     this.progressbar = progressbar;
-    setContainedBinding(this.progressbar);
     this.termsCondition = termsCondition;
     this.titleFirst = titleFirst;
   }

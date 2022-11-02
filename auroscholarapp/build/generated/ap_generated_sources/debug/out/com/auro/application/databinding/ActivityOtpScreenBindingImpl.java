@@ -69,8 +69,10 @@ public class ActivityOtpScreenBindingImpl extends ActivityOtpScreenBinding  {
             , (com.auro.application.core.util.uiwidget.RPTextView) bindings[13]
             , (android.view.View) bindings[6]
             );
+        setContainedBinding(this.backButton);
         this.layoutDesgin.setTag(null);
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
+        setContainedBinding(this.progressbar);
         setRootTag(root);
         // listeners
         invalidateAll();

@@ -85,8 +85,10 @@ public class FragmentTransactionsBindingImpl extends FragmentTransactionsBinding
             , (com.auro.application.core.util.uiwidget.RPTextView) bindings[22]
             );
         this.errorConstraint.setTag(null);
+        setContainedBinding(this.errorLayout);
         this.mainParentLayout.setTag(null);
         this.mboundView0 = (android.widget.RelativeLayout) bindings[0];
+        setContainedBinding(this.quizSelectionSheet);
         setRootTag(root);
         // listeners
         invalidateAll();

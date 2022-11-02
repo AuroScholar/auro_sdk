@@ -154,7 +154,6 @@ public abstract class StudentKycInfoLayoutBinding extends ViewDataBinding {
     this.doucmetImage = doucmetImage;
     this.errorConstraint = errorConstraint;
     this.errorLayout = errorLayout;
-    setContainedBinding(this.errorLayout);
     this.imageView5 = imageView5;
     this.imageView6 = imageView6;
     this.imageViewLanguage = imageViewLanguage;

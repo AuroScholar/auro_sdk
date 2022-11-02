@@ -178,7 +178,6 @@ public abstract class FragmentTeacherNewprofileBinding extends ViewDataBinding {
     this.editImage = editImage;
     this.errorConstraint = errorConstraint;
     this.errorLayout = errorLayout;
-    setContainedBinding(this.errorLayout);
     this.etDistict = etDistict;
     this.etEmailNumber = etEmailNumber;
     this.etFullName = etFullName;
@@ -198,7 +197,6 @@ public abstract class FragmentTeacherNewprofileBinding extends ViewDataBinding {
     this.profileimage = profileimage;
     this.progressBar = progressBar;
     this.progressbarLayout = progressbarLayout;
-    setContainedBinding(this.progressbarLayout);
     this.recycleViewclass = recycleViewclass;
     this.recycleViewsubject = recycleViewsubject;
     this.rpTeacherprofile = rpTeacherprofile;

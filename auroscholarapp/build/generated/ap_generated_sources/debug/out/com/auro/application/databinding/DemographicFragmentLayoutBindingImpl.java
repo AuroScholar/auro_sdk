@@ -68,6 +68,7 @@ public class DemographicFragmentLayoutBindingImpl extends DemographicFragmentLay
             , (com.auro.application.core.util.uiwidget.RPTextView) bindings[5]
             );
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
+        setContainedBinding(this.toolbarLayout);
         setRootTag(root);
         // listeners
         invalidateAll();

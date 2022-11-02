@@ -47,6 +47,7 @@ public class ShimmerMyClassroomLayoutBindingImpl extends ShimmerMyClassroomLayou
             , (com.auro.application.core.util.uiwidget.RPTextView) bindings[5]
             );
         this.errorConstraint.setTag(null);
+        setContainedBinding(this.errorLayout);
         this.mboundView0 = (android.widget.RelativeLayout) bindings[0];
         setRootTag(root);
         // listeners

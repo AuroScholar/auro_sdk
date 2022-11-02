@@ -88,12 +88,17 @@ public class FriendsLeoboardLayoutBindingImpl extends FriendsLeoboardLayoutBindi
             , (androidx.viewpager.widget.ViewPager) bindings[20]
             );
         this.errorConstraint.setTag(null);
+        setContainedBinding(this.errorLayout);
         this.friendBgImgLayout.setTag(null);
+        setContainedBinding(this.headerParent);
+        setContainedBinding(this.headerTopParent);
         this.mboundView0 = (android.widget.LinearLayout) bindings[0];
         this.mboundView1 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[1];
         this.mboundView1.setTag(null);
         this.mboundView2 = (android.widget.LinearLayout) bindings[2];
         this.mboundView2.setTag(null);
+        setContainedBinding(this.progressbar);
+        setContainedBinding(this.toolbarLayout);
         setRootTag(root);
         // listeners
         invalidateAll();

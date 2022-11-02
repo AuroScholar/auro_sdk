@@ -72,7 +72,6 @@ public abstract class FragmentGradeChangeDialogBinding extends ViewDataBinding {
     super(_bindingComponent, _root, _localFieldCount);
     this.SpinnerClass = SpinnerClass;
     this.backButton = backButton;
-    setContainedBinding(this.backButton);
     this.btnNo = btnNo;
     this.btnYes = btnYes;
     this.btnYesConfirm = btnYesConfirm;
@@ -80,7 +79,6 @@ public abstract class FragmentGradeChangeDialogBinding extends ViewDataBinding {
     this.layoutClass = layoutClass;
     this.linLayBtn = linLayBtn;
     this.progressbar = progressbar;
-    setContainedBinding(this.progressbar);
     this.textEduction = textEduction;
     this.tvMessage = tvMessage;
     this.tvTitle = tvTitle;

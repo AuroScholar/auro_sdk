@@ -180,9 +180,7 @@ public abstract class FragmentTeacherProfileBinding extends ViewDataBinding {
     this.editteachername = editteachername;
     this.errorConstraint = errorConstraint;
     this.errorLayout = errorLayout;
-    setContainedBinding(this.errorLayout);
     this.headerTopParent = headerTopParent;
-    setContainedBinding(this.headerTopParent);
     this.icemail = icemail;
     this.icmobilenumber = icmobilenumber;
     this.icschoolname = icschoolname;

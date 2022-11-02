@@ -310,7 +310,6 @@ public abstract class FragmentEditParentprofileBinding extends ViewDataBinding {
     this.editemail = editemail;
     this.errorConstraint = errorConstraint;
     this.errorLayout = errorLayout;
-    setContainedBinding(this.errorLayout);
     this.grade = grade;
     this.gradeChnage = gradeChnage;
     this.gradeLayout = gradeLayout;

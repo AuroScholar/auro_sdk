@@ -46,7 +46,6 @@ public abstract class ShimmerMyClassroomLayoutBinding extends ViewDataBinding {
     this.background = background;
     this.errorConstraint = errorConstraint;
     this.errorLayout = errorLayout;
-    setContainedBinding(this.errorLayout);
     this.parentLayoutOne = parentLayoutOne;
     this.socialShareLayout = socialShareLayout;
     this.txtInviteStudent = txtInviteStudent;

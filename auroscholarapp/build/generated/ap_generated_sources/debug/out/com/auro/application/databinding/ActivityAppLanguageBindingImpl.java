@@ -61,10 +61,12 @@ public class ActivityAppLanguageBindingImpl extends ActivityAppLanguageBinding  
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[5]
             , (com.auro.application.databinding.UserTypeSelectBottomSheetBinding) bindings[3]
             );
+        setContainedBinding(this.customProgressLayout);
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView1 = (android.widget.RelativeLayout) bindings[1];
         this.mboundView1.setTag(null);
         this.progressLayout.setTag(null);
+        setContainedBinding(this.userSelectionSheet);
         setRootTag(root);
         // listeners
         invalidateAll();

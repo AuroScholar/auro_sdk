@@ -44,6 +44,7 @@ public class NavigationDashboardLayoutBindingLargeImpl extends NavigationDashboa
             , (android.widget.RelativeLayout) bindings[0]
             , (com.auro.application.databinding.FullScreenProgressBarBinding) bindings[1]
             );
+        setContainedBinding(this.progressbar);
         setRootTag(root);
         // listeners
         invalidateAll();

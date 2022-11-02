@@ -72,6 +72,7 @@ public class ActivityResetPasswordBindingImpl extends ActivityResetPasswordBindi
             , (com.auro.application.core.util.uiwidget.RPTextView) bindings[5]
             );
         this.mboundView0 = (android.widget.RelativeLayout) bindings[0];
+        setContainedBinding(this.progressbar);
         setRootTag(root);
         // listeners
         invalidateAll();

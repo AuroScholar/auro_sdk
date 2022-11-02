@@ -286,11 +286,14 @@ public class FragmentStudentUpdateProfileBindingImpl extends FragmentStudentUpda
             , (android.widget.LinearLayout) bindings[103]
             );
         this.errorConstraint.setTag(null);
+        setContainedBinding(this.errorLayout);
+        setContainedBinding(this.layoutOnlystudent);
         this.layoutSetpin.setTag(null);
         this.layoutSetusernamepin.setTag(null);
         this.mboundView0 = (android.widget.ScrollView) bindings[0];
         this.mboundView4 = (com.auro.application.databinding.ShimmerMyClassroomLayoutBinding) bindings[8];
         setContainedBinding(this.mboundView4);
+        setContainedBinding(this.progressbar);
         this.shimmerMyClassroom.setTag(null);
         setRootTag(root);
         // listeners

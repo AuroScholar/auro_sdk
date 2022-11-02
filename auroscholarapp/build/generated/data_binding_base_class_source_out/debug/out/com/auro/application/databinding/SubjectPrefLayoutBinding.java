@@ -81,7 +81,6 @@ public abstract class SubjectPrefLayoutBinding extends ViewDataBinding {
     this.constantLayout = constantLayout;
     this.errorConstraint = errorConstraint;
     this.errorLayout = errorLayout;
-    setContainedBinding(this.errorLayout);
     this.icClose = icClose;
     this.imageView5 = imageView5;
     this.linearLayout6 = linearLayout6;

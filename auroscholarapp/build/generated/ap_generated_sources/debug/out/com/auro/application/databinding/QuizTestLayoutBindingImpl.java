@@ -54,7 +54,9 @@ public class QuizTestLayoutBindingImpl extends QuizTestLayoutBinding  {
             , (android.webkit.WebView) bindings[5]
             );
         this.errorConstraint.setTag(null);
+        setContainedBinding(this.errorLayout);
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
+        setContainedBinding(this.toolbarLayout);
         setRootTag(root);
         // listeners
         invalidateAll();

@@ -479,7 +479,6 @@ public abstract class FragmentStudentUpdateProfileBinding extends ViewDataBindin
     this.edtusername = edtusername;
     this.errorConstraint = errorConstraint;
     this.errorLayout = errorLayout;
-    setContainedBinding(this.errorLayout);
     this.etSchoolboard = etSchoolboard;
     this.etSchoolmedium = etSchoolmedium;
     this.etSchoolname = etSchoolname;
@@ -505,7 +504,6 @@ public abstract class FragmentStudentUpdateProfileBinding extends ViewDataBindin
     this.inputemailedittext = inputemailedittext;
     this.languageLayout = languageLayout;
     this.layoutOnlystudent = layoutOnlystudent;
-    setContainedBinding(this.layoutOnlystudent);
     this.layoutSetpin = layoutSetpin;
     this.layoutSetusernamepin = layoutSetusernamepin;
     this.layoutSpinner = layoutSpinner;
@@ -525,7 +523,6 @@ public abstract class FragmentStudentUpdateProfileBinding extends ViewDataBindin
     this.profileimage = profileimage;
     this.progressBar = progressBar;
     this.progressbar = progressbar;
-    setContainedBinding(this.progressbar);
     this.relSchool = relSchool;
     this.relativeLayout = relativeLayout;
     this.setPinText = setPinText;

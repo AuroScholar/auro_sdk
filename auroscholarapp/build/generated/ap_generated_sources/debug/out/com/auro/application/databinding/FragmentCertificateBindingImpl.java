@@ -75,6 +75,7 @@ public class FragmentCertificateBindingImpl extends FragmentCertificateBinding  
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[19]
             );
         this.errorConstraint.setTag(null);
+        setContainedBinding(this.errorLayout);
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         setRootTag(root);
         // listeners

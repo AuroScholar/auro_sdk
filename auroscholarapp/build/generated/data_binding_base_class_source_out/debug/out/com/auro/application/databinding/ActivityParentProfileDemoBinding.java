@@ -178,7 +178,6 @@ public abstract class ActivityParentProfileDemoBinding extends ViewDataBinding {
     this.profileimage = profileimage;
     this.progressBar = progressBar;
     this.progressbar = progressbar;
-    setContainedBinding(this.progressbar);
     this.rpTeacherprofile = rpTeacherprofile;
     this.submitbutton = submitbutton;
     this.switchProfile = switchProfile;

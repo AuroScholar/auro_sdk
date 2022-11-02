@@ -100,6 +100,7 @@ public class FragmentCreateGroupBindingImpl extends FragmentCreateGroupBinding  
             , (android.view.View) bindings[27]
             );
         this.errorConstraint.setTag(null);
+        setContainedBinding(this.errorLayout);
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView1 = (com.auro.application.databinding.FragmentMainQuizHomeShimmerBinding) bindings[3];
         setContainedBinding(this.mboundView1);

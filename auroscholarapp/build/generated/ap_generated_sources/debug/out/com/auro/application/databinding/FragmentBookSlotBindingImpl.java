@@ -38,6 +38,7 @@ public class FragmentBookSlotBindingImpl extends FragmentBookSlotBinding  {
             , (com.auro.application.databinding.BottomSheetPersistentBinding) bindings[1]
             , (androidx.coordinatorlayout.widget.CoordinatorLayout) bindings[0]
             );
+        setContainedBinding(this.bottomsheet);
         setRootTag(root);
         // listeners
         invalidateAll();

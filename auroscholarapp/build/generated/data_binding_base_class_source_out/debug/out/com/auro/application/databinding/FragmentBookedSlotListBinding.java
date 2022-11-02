@@ -39,7 +39,6 @@ public abstract class FragmentBookedSlotListBinding extends ViewDataBinding {
     this.bookWebinar = bookWebinar;
     this.errorConstraint = errorConstraint;
     this.errorLayout = errorLayout;
-    setContainedBinding(this.errorLayout);
     this.progressGif = progressGif;
     this.rvBookSlot = rvBookSlot;
   }

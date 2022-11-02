@@ -57,6 +57,8 @@ public class ActivitySplashScreenAnimationBindingImpl extends ActivitySplashScre
             , (com.auro.application.core.util.uiwidget.RPTextView) bindings[9]
             , (com.auro.application.core.util.uiwidget.RPTextView) bindings[11]
             );
+        setContainedBinding(this.customProgressLayout);
+        setContainedBinding(this.headerTopParent);
         this.mboundView0 = (android.widget.RelativeLayout) bindings[0];
         this.progressLayout.setTag(null);
         setRootTag(root);

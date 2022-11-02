@@ -73,7 +73,6 @@ public abstract class FragmentTeacherSaveDetailBinding extends ViewDataBinding {
     this.RPTextView3 = RPTextView3;
     this.button = button;
     this.headerParent = headerParent;
-    setContainedBinding(this.headerParent);
     this.icemail = icemail;
     this.icmobilenumber = icmobilenumber;
     this.icteachername = icteachername;
@@ -83,7 +82,6 @@ public abstract class FragmentTeacherSaveDetailBinding extends ViewDataBinding {
     this.tilmobiletxt = tilmobiletxt;
     this.tilteachertxt = tilteachertxt;
     this.toolbarLayout = toolbarLayout;
-    setContainedBinding(this.toolbarLayout);
   }
 
   public abstract void setTeacherSaveDetailViewModel(

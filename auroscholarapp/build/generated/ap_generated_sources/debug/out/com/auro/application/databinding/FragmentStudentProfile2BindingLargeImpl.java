@@ -215,6 +215,7 @@ public class FragmentStudentProfile2BindingLargeImpl extends FragmentStudentProf
             , (android.widget.LinearLayout) bindings[71]
             );
         this.errorConstraint.setTag(null);
+        setContainedBinding(this.errorLayout);
         this.mboundView0 = (android.widget.ScrollView) bindings[0];
         this.mboundView2 = (com.auro.application.databinding.ShimmerMyClassroomLayoutBinding) bindings[4];
         setContainedBinding(this.mboundView2);

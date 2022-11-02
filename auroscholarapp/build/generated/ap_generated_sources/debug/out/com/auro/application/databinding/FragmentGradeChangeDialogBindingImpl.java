@@ -59,7 +59,9 @@ public class FragmentGradeChangeDialogBindingImpl extends FragmentGradeChangeDia
             , (com.auro.application.core.util.uiwidget.RPTextView) bindings[9]
             , (android.view.View) bindings[5]
             );
+        setContainedBinding(this.backButton);
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
+        setContainedBinding(this.progressbar);
         setRootTag(root);
         // listeners
         invalidateAll();

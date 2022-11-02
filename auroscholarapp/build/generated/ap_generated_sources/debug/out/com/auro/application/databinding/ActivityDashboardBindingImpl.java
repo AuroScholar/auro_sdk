@@ -34,6 +34,7 @@ public class ActivityDashboardBindingImpl extends ActivityDashboardBinding  {
             , (com.auro.application.databinding.NavigationContentLayoutBinding) bindings[1]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[0]
             );
+        setContainedBinding(this.naviagtionContent);
         setRootTag(root);
         // listeners
         invalidateAll();

@@ -196,7 +196,6 @@ public abstract class FragmentParentProfileBinding extends ViewDataBinding {
     this.profileimage = profileimage;
     this.progressBar = progressBar;
     this.progressbar = progressbar;
-    setContainedBinding(this.progressbar);
     this.rpTeacherprofile = rpTeacherprofile;
     this.skipForNow = skipForNow;
     this.submitbutton = submitbutton;

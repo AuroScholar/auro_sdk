@@ -67,6 +67,7 @@ public class SendMoneyFragmentLayoutBindingImpl extends SendMoneyFragmentLayoutB
             , (androidx.viewpager.widget.ViewPager) bindings[15]
             );
         this.errorConstraint.setTag(null);
+        setContainedBinding(this.errorLayout);
         this.mboundView0 = (android.widget.LinearLayout) bindings[0];
         setRootTag(root);
         // listeners

@@ -120,7 +120,9 @@ public class FragmentTeacherNewprofileBindingImpl extends FragmentTeacherNewprof
             , (android.view.View) bindings[27]
             );
         this.errorConstraint.setTag(null);
+        setContainedBinding(this.errorLayout);
         this.mboundView0 = (android.widget.RelativeLayout) bindings[0];
+        setContainedBinding(this.progressbarLayout);
         setRootTag(root);
         // listeners
         invalidateAll();

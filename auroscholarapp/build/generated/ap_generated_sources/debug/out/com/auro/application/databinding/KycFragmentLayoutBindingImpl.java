@@ -88,11 +88,18 @@ public class KycFragmentLayoutBindingImpl extends KycFragmentLayoutBinding  {
             , (android.widget.ImageView) bindings[16]
             , (com.auro.application.core.util.uiwidget.RPTextView) bindings[14]
             );
+        setContainedBinding(this.cambridgeHeading);
         this.errorConstraint.setTag(null);
+        setContainedBinding(this.errorLayout);
         this.kycbackground.setTag(null);
         this.mainParentLayout.setTag(null);
         this.mboundView1 = (android.widget.LinearLayout) bindings[1];
         this.mboundView1.setTag(null);
+        setContainedBinding(this.stepFour);
+        setContainedBinding(this.stepOne);
+        setContainedBinding(this.stepThree);
+        setContainedBinding(this.stepTwo);
+        setContainedBinding(this.toolbarLayout);
         setRootTag(root);
         // listeners
         invalidateAll();

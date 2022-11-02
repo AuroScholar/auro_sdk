@@ -84,7 +84,6 @@ public abstract class ActivitySetPinBinding extends ViewDataBinding {
     this.mobileNumberText = mobileNumberText;
     this.pinView = pinView;
     this.progressbar = progressbar;
-    setContainedBinding(this.progressbar);
     this.setPinText = setPinText;
     this.setUserName = setUserName;
     this.termsCondition = termsCondition;

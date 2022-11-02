@@ -57,9 +57,7 @@ public abstract class ActivitySplashScreenAnimationBinding extends ViewDataBindi
     super(_bindingComponent, _root, _localFieldCount);
     this.auroScholarLogo = auroScholarLogo;
     this.customProgressLayout = customProgressLayout;
-    setContainedBinding(this.customProgressLayout);
     this.headerTopParent = headerTopParent;
-    setContainedBinding(this.headerTopParent);
     this.ivBooks = ivBooks;
     this.ivChildren = ivChildren;
     this.ivFirstCircle = ivFirstCircle;

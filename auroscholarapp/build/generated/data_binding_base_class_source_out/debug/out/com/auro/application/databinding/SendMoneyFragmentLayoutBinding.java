@@ -94,7 +94,6 @@ public abstract class SendMoneyFragmentLayoutBinding extends ViewDataBinding {
     this.dineHomeTabs = dineHomeTabs;
     this.errorConstraint = errorConstraint;
     this.errorLayout = errorLayout;
-    setContainedBinding(this.errorLayout);
     this.imageView5 = imageView5;
     this.imageView6 = imageView6;
     this.linearLayout6 = linearLayout6;

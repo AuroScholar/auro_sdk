@@ -598,7 +598,7 @@
     <string name="your_subjects">Your Subjects</string>
     <string name="your_wallet">Your Wallet</string>
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here. -->
+        
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -610,7 +610,7 @@
         <item name="windowNoTitle">true</item>
     </style>
     <style name="AppThemeNew" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <!-- Customize your theme here. -->
+        
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -631,7 +631,7 @@
         <item name="android:windowFullscreen">false</item>
         <item name="android:background">@android:color/transparent</item>
         <item name="android:windowBackground">@android:color/transparent</item>
-        <!--<item name="android:windowAnimationStyle">@style/DialogAnimation</item>-->
+        
     </style>
     <style name="HintText" parent="TextAppearance.AppCompat">
         <item name="android:textColor">@color/taupe</item>
@@ -695,25 +695,21 @@
         <item name="colorControlHighlight">@color/auro_border_blue</item>
     </style>
     <style name="Widget.BottomNavigationStudent" parent="Widget.Design.BottomNavigationView">
-    <!--
-    <item name="fontFamily">@font/opensans_regular</item>
--->
+    
         <item name="android:actionMenuTextColor">@color/txtDarkGrey</item>
         <item name="android:textSize">@dimen/_7sdp</item>
         <item name="android:textStyle">normal</item>
         <item name="android:minHeight">0dp</item>
     </style>
     <style name="Widget.BottomNavigationView" parent="Widget.Design.BottomNavigationView">
-        <!--
-        <item name="fontFamily">@font/opensans_regular</item>
--->
+        
         <item name="android:textSize">@dimen/_7sdp</item>
         <item name="android:textStyle">normal</item>
         <item name="android:minHeight">0dp</item>
     </style>
     <style name="Widget.BottomNavigationViewSelect" parent="Widget.Design.BottomNavigationView">
         <item name="android:textSize">@dimen/_8sdp</item>
-        <!-- <item name="fontFamily">@font/opensans_regular</item>-->
+        
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">@color/toolbar_pink</item>
     </style>
@@ -793,34 +789,34 @@
         <attr format="integer" name="animation_duration"/>
     </declare-styleable>
     <declare-styleable name="HorizontalCalendarView">
-        <!-- Default text color for all texts -->
+        
         <attr format="color" name="textColorNormal"/>
-        <!-- Default top text color -->
+        
         <attr format="color" name="colorTopText"/>
-        <!-- Default Middle text color -->
+        
         <attr format="color" name="colorMiddleText"/>
-        <!-- Default Bottom text color -->
+        
         <attr format="color" name="colorBottomText"/>
 
-        <!-- Selected item's text color for all texts -->
+        
         <attr format="color" name="textColorSelected"/>
-        <!-- Selected item's top text color -->
+        
         <attr format="color" name="colorTopTextSelected"/>
-        <!-- Selected item's Middle text color -->
+        
         <attr format="color" name="colorMiddleTextSelected"/>
-        <!-- Selected item's Bottom text color -->
+        
         <attr format="color" name="colorBottomTextSelected"/>
-        <!-- Selected item's background drawable -->
+        
         <attr format="reference" name="selectedDateBackground"/>
 
-        <!-- Background color for selector bar. -->
+        
         <attr format="color" name="selectorColor"/>
 
-        <!-- Top text size -->
+        
         <attr format="dimension" name="sizeTopText"/>
-        <!-- Middle text size -->
+        
         <attr format="dimension" name="sizeMiddleText"/>
-        <!-- Bottom text size -->
+        
         <attr format="dimension" name="sizeBottomText"/>
 
     </declare-styleable>

@@ -158,7 +158,6 @@ public abstract class FragmentMainQuizHomeBinding extends ViewDataBinding {
     this.constantLayout = constantLayout;
     this.errorConstraint = errorConstraint;
     this.errorLayout = errorLayout;
-    setContainedBinding(this.errorLayout);
     this.floatChat = floatChat;
     this.imageChat = imageChat;
     this.imageView5 = imageView5;
@@ -171,12 +170,10 @@ public abstract class FragmentMainQuizHomeBinding extends ViewDataBinding {
     this.mainParentLayout = mainParentLayout;
     this.privacyPolicy = privacyPolicy;
     this.quizSelectionSheet = quizSelectionSheet;
-    setContainedBinding(this.quizSelectionSheet);
     this.recyclerViewMenu = recyclerViewMenu;
     this.relativeLayout = relativeLayout;
     this.shimmerViewQuiz = shimmerViewQuiz;
     this.slabLayout = slabLayout;
-    setContainedBinding(this.slabLayout);
     this.swipeRefreshLayout = swipeRefreshLayout;
     this.termsOfUse = termsOfUse;
     this.topHeaderLayout = topHeaderLayout;

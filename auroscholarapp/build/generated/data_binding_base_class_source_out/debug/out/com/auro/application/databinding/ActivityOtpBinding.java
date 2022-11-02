@@ -71,7 +71,6 @@ public abstract class ActivityOtpBinding extends ViewDataBinding {
     this.optOverCallTxt = optOverCallTxt;
     this.otpView = otpView;
     this.progressbar = progressbar;
-    setContainedBinding(this.progressbar);
     this.resendBtn = resendBtn;
     this.resendTimerTxt = resendTimerTxt;
     this.rpTextview2 = rpTextview2;

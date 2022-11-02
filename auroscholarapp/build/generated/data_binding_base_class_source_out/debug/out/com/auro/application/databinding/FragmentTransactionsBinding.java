@@ -121,7 +121,6 @@ public abstract class FragmentTransactionsBinding extends ViewDataBinding {
     this.constantLayout = constantLayout;
     this.errorConstraint = errorConstraint;
     this.errorLayout = errorLayout;
-    setContainedBinding(this.errorLayout);
     this.imageView5 = imageView5;
     this.imageView6 = imageView6;
     this.imageViewLanguage = imageViewLanguage;
@@ -137,7 +136,6 @@ public abstract class FragmentTransactionsBinding extends ViewDataBinding {
     this.monthlyWiseList = monthlyWiseList;
     this.progressBar2 = progressBar2;
     this.quizSelectionSheet = quizSelectionSheet;
-    setContainedBinding(this.quizSelectionSheet);
     this.subjectParentLayout = subjectParentLayout;
     this.subjectSpinner = subjectSpinner;
     this.subjectTitle = subjectTitle;

@@ -89,7 +89,6 @@ public abstract class DemographicFragmentLayoutBinding extends ViewDataBinding {
     this.spinnerPrivateType = spinnerPrivateType;
     this.submitbutton = submitbutton;
     this.toolbarLayout = toolbarLayout;
-    setContainedBinding(this.toolbarLayout);
     this.tvBoard = tvBoard;
     this.tvGender = tvGender;
     this.tvLanguageMedium = tvLanguageMedium;

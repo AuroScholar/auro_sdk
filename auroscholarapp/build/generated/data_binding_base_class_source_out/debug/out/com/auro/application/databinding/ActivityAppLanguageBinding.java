@@ -71,7 +71,6 @@ public abstract class ActivityAppLanguageBinding extends ViewDataBinding {
     this.auroScholarLogo = auroScholarLogo;
     this.backButton = backButton;
     this.customProgressLayout = customProgressLayout;
-    setContainedBinding(this.customProgressLayout);
     this.imageView5 = imageView5;
     this.imageView6 = imageView6;
     this.linearLayout9 = linearLayout9;
@@ -80,7 +79,6 @@ public abstract class ActivityAppLanguageBinding extends ViewDataBinding {
     this.subHeadingText = subHeadingText;
     this.topLayout = topLayout;
     this.userSelectionSheet = userSelectionSheet;
-    setContainedBinding(this.userSelectionSheet);
   }
 
   public abstract void setViewModel(@Nullable AppLanguageViewModel viewModel);

@@ -85,7 +85,6 @@ public abstract class ActivityOtpScreenBinding extends ViewDataBinding {
     this.RPButtonConfirm = RPButtonConfirm;
     this.RPTextView7 = RPTextView7;
     this.backButton = backButton;
-    setContainedBinding(this.backButton);
     this.clockIcon = clockIcon;
     this.codeEditMobileno = codeEditMobileno;
     this.codeValidText = codeValidText;
@@ -94,7 +93,6 @@ public abstract class ActivityOtpScreenBinding extends ViewDataBinding {
     this.llOtp = llOtp;
     this.otpView = otpView;
     this.progressbar = progressbar;
-    setContainedBinding(this.progressbar);
     this.resendText = resendText;
     this.textEduction = textEduction;
     this.textOtpShow = textOtpShow;

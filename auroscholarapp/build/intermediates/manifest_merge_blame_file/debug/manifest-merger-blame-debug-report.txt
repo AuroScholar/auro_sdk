@@ -3,800 +3,811 @@
 3    xmlns:tools="http://schemas.android.com/tools"
 4    package="com.auro.application" >
 5
-6    <uses-sdk android:minSdkVersion="1" />
-6-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml
-7
-8    <uses-permission android:name="android.permission.INTERNET" />
-8-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:6:5-67
-8-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:6:22-64
-9    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-9-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:7:5-79
-9-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:7:22-76
-10    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
-10-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:8:5-95
-10-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:8:22-76
-11    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-11-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:9:5-75
-11-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:9:22-72
-12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-12-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:10:5-80
-12-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:10:22-77
-13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-13-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:11:5-81
-13-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:11:22-78
-14    <uses-permission android:name="android.permission.WAKE_LOCK" />
-14-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:12:5-68
-14-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:12:22-65
-15
-16    <!-- <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" -->
-17    <!-- tools:ignore="ProtectedPermissions" /> -->
-18    <!-- <uses-permission android:name="com.google.android.gms.permission.AD_ID"/> -->
-19
-20    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-20-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:18:5-78
-20-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:18:22-76
-21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-21-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:19:5-76
-21-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:19:22-73
-22    <uses-permission android:name="android.permission.CAMERA" />
-22-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:20:5-65
-22-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:20:22-62
-23    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-23-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:21:5-78
-23-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:21:22-75
-24    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-24-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:22:5-82
-24-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:22:22-79
-25    <!-- <uses-feature -->
-26    <!-- android:name="android.hardware.camera.any"/> -->
-27    <!-- <uses-feature android:name="android.hardware.camera"></uses-feature> -->
-28    <!-- <uses-feature android:name="android.hardware.camera.autofocus" android:required="true"/> -->
-29
-30
+6    <uses-sdk
+6-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:5:5-246
+7        android:minSdkVersion="1"
+7-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:5:5-246
+8        android:targetSdkVersion="1"
+8-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:5:5-246
+9        tools:overrideLibrary="com.github.dhaval2404.imagepicker,com.pierfrancescosoffritti.androidyoutubeplayer, androidx.camera.view , androidx.camera.extensions,androidx.camera.camera2, androidx.camera.lifecycle,androidx.camera.core" />
+9-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:5:15-243
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:7:5-67
+11-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:8:5-79
+12-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:8:22-76
+13    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+13-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:9:5-95
+13-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:9:22-76
+14    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+14-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:10:5-75
+14-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:10:22-72
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:11:5-80
+15-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:11:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:12:5-81
+16-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:12:22-78
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:13:5-68
+17-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:13:22-65
+18
+19    <!-- <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" -->
+20    <!-- tools:ignore="ProtectedPermissions" /> -->
+21    <!-- <uses-permission android:name="com.google.android.gms.permission.AD_ID"/> -->
+22
+23    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+23-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:19:5-78
+23-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:19:22-76
+24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+24-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:20:5-76
+24-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:20:22-73
+25    <uses-permission android:name="android.permission.CAMERA" />
+25-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:21:5-65
+25-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:21:22-62
+26    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+26-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:22:5-78
+26-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:22:22-75
+27    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+27-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:23:5-82
+27-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:23:22-79
+28    <!-- <uses-feature -->
+29    <!-- android:name="android.hardware.camera.any"/> -->
+30    <!-- <uses-feature android:name="android.hardware.camera"></uses-feature> -->
 31    <!-- <uses-feature android:name="android.hardware.camera.autofocus" android:required="true"/> -->
-32    <uses-feature
-32-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:29:5-101
-33        android:name="android.hardware.camera.any"
-33-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:29:19-61
-34        android:required="true" />
-34-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:29:62-85
-35
-36    <queries>
-36-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:30:5-38:11
-37        <intent>
-37-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:31:9-34:10
-38            <action android:name="android.media.action.IMAGE_CAPTURE" />
-38-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:32:5-64
-38-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:32:13-62
-39        </intent>
-40        <intent>
-40-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:31:9-34:10
-41            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
-41-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:36:5-70
-41-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:36:13-68
-42        </intent>
-43    </queries>
-44
-45    <application
-45-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:39:5-450:19
-46        android:name="com.auro.application.core.application.AuroApp"
-46-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:40:9-49
-47        android:allowBackup="true"
-47-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:41:9-35
-48        android:fullBackupContent="false"
-48-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:42:9-42
-49        android:hardwareAccelerated="true"
-49-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:43:9-43
-50        android:label="@string/app_name"
-50-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:44:9-41
-51        android:largeHeap="true"
-51-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:45:9-33
-52        android:requestLegacyExternalStorage="true"
-52-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:48:9-52
-53        android:theme="@style/AppTheme"
-53-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:49:9-40
-54        android:usesCleartextTraffic="true"
-54-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:50:9-44
-55        tools:remove="android:appComponentFactory"
-55-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:47:9-51
-56        tools:replace="android:allowBackup"
-56-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:51:9-44
-57        tools:targetApi="31" >
-57-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:46:9-29
-58
-59        <!-- android:excludeFromRecents="false" -->
-60        <!-- android:preserveLegacyExternalStorage="true" -->
-61        <activity
-61-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:56:9-58:40
-62            android:name="com.auro.application.ShowActivity"
-62-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:57:13-41
-63            android:exported="false" />
-63-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:58:13-37
-64        <activity
-64-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:59:9-61:39
-65            android:name="com.auro.application.home.presentation.view.activity.SetPinActivity"
-65-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:60:13-75
-66            android:exported="true" />
-66-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:61:13-36
-67        <activity
-67-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:62:9-64:39
-68            android:name="com.auro.application.kyc.presentation.view.activity.KycActivity"
-68-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:63:13-71
-69            android:exported="true" />
-69-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:64:13-36
-70
-71        <receiver
-71-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:66:9-74:20
-72            android:name="com.auro.application.util.network.NetworkChangeReceiver"
-72-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:67:13-63
-73            android:exported="true"
-73-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:68:13-36
-74            android:label="NetworkChangeReceiver" >
-74-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:69:13-50
-75            <intent-filter>
-75-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:70:13-73:29
-76                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-76-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:71:17-79
-76-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:71:25-76
-77                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
-77-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:72:17-78
-77-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:72:25-75
-78            </intent-filter>
-79        </receiver> <!-- <activity -->
-80        <!-- android:name=".yubochat.YuboChatActivity" -->
-81        <!-- android:exported="true" -->
-82        <!-- android:resizeableActivity="false" -->
-83        <!-- tools:ignore="MissingClass" /> -->
-84        <activity
-84-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:79:9-83:49
-85            android:name="com.auro.application.home.presentation.view.activity.ResetPasswordActivity"
-85-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:80:13-82
-86            android:excludeFromRecents="false"
-86-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:83:13-47
-87            android:exported="true"
-87-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:81:13-36
-88            android:noHistory="false" />
-88-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:82:13-38
-89        <activity
-89-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:84:9-91:59
-90            android:name="com.auro.application.home.presentation.view.activity.WebActivity"
-90-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:85:13-72
-91            android:excludeFromRecents="false"
-91-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:87:13-47
-92            android:exported="true"
-92-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:86:13-36
-93            android:label="@string/title_activity_web"
-93-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:88:13-55
-94            android:resizeableActivity="false"
+32
+33
+34    <!-- <uses-feature android:name="android.hardware.camera.autofocus" android:required="true"/> -->
+35    <!-- <uses-feature -->
+36    <!-- android:name="android.hardware.camera.autofocus" -->
+37    <!-- android:required="true" /> -->
+38    <uses-feature
+38-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:33:5-101
+39        android:name="android.hardware.camera.any"
+39-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:33:19-61
+40        android:required="true" />
+40-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:33:62-85
+41
+42    <queries>
+42-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:34:5-42:11
+43        <intent>
+43-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:35:9-38:10
+44            <action android:name="android.media.action.IMAGE_CAPTURE" />
+44-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:36:5-64
+44-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:36:13-62
+45        </intent>
+46        <intent>
+46-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:39:5-41:10
+47            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+47-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:40:5-70
+47-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:40:13-68
+48        </intent>
+49    </queries>
+50
+51    <application
+51-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:43:5-456:19
+52        android:name="com.auro.application.core.application.AuroApp"
+52-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:44:9-49
+53        android:allowBackup="true"
+53-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:45:9-35
+54        android:fullBackupContent="false"
+54-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:46:9-42
+55        android:hardwareAccelerated="true"
+55-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:47:9-43
+56        android:label="@string/app_name"
+56-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:48:9-41
+57        android:largeHeap="true"
+57-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:49:9-33
+58        android:requestLegacyExternalStorage="true"
+58-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:52:9-52
+59        android:theme="@style/AppTheme"
+59-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:53:9-40
+60        android:usesCleartextTraffic="true"
+60-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:54:9-44
+61        tools:remove="android:appComponentFactory"
+61-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:51:9-51
+62        tools:replace="android:allowBackup"
+62-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:55:9-44
+63        tools:targetApi="31" >
+63-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:50:9-29
+64
+65        <!-- android:excludeFromRecents="false" -->
+66        <!-- android:preserveLegacyExternalStorage="true" -->
+67        <!-- <application -->
+68        <!-- android:usesCleartextTraffic="true"> -->
+69        <activity
+69-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:62:9-64:40
+70            android:name="com.auro.application.ShowActivity"
+70-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:63:13-41
+71            android:exported="false" />
+71-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:64:13-37
+72        <activity
+72-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:65:9-67:39
+73            android:name="com.auro.application.home.presentation.view.activity.SetPinActivity"
+73-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:66:13-75
+74            android:exported="true" />
+74-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:67:13-36
+75        <activity
+75-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:68:9-70:39
+76            android:name="com.auro.application.kyc.presentation.view.activity.KycActivity"
+76-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:69:13-71
+77            android:exported="true" />
+77-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:70:13-36
+78
+79        <receiver
+79-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:72:9-80:20
+80            android:name="com.auro.application.util.network.NetworkChangeReceiver"
+80-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:73:13-63
+81            android:exported="true"
+81-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:74:13-36
+82            android:label="NetworkChangeReceiver" >
+82-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:75:13-50
+83            <intent-filter>
+83-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:76:13-79:29
+84                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+84-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:77:17-79
+84-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:77:25-76
+85                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+85-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:78:17-78
+85-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:78:25-75
+86            </intent-filter>
+87        </receiver> <!-- <activity -->
+88        <!-- android:name=".yubochat.YuboChatActivity" -->
+89        <!-- android:exported="true" -->
+90        <!-- android:resizeableActivity="false" -->
+91        <!-- tools:ignore="MissingClass" /> -->
+92        <activity
+92-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:85:9-89:49
+93            android:name="com.auro.application.home.presentation.view.activity.ResetPasswordActivity"
+93-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:86:13-82
+94            android:excludeFromRecents="false"
 94-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:89:13-47
-95            android:screenOrientation="portrait"
-95-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:90:13-49
-96            android:theme="@style/AppTheme.NoActionBar" />
-96-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:91:13-56
-97        <!--
-98 <activity
-99            android:name=".home.presentation.view.activity.VerifyWithPhoneNoActivity"
-100            android:label="@string/title_activity_verify_with_phone_no"
-101            android:resizeableActivity="false"
-102            android:exported="true"
+95            android:exported="true"
+95-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:87:13-36
+96            android:noHistory="false" />
+96-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:88:13-38
+97        <activity
+97-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:90:9-97:59
+98            android:name="com.auro.application.home.presentation.view.activity.WebActivity"
+98-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:91:13-72
+99            android:excludeFromRecents="false"
+99-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:93:13-47
+100            android:exported="true"
+100-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:92:13-36
+101            android:label="@string/title_activity_web"
+101-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:94:13-55
+102            android:resizeableActivity="false"
+102-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:95:13-47
 103            android:screenOrientation="portrait"
+103-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:96:13-49
 104            android:theme="@style/AppTheme.NoActionBar" />
-105        -->
-106        <activity
-106-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:101:9-106:52
-107            android:name="com.auro.application.home.presentation.view.activity.OtpScreenActivity"
-107-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:102:13-78
-108            android:excludeFromRecents="false"
-108-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:104:13-47
-109            android:exported="true"
-109-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:103:13-36
-110            android:resizeableActivity="false"
-110-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:105:13-47
-111            android:screenOrientation="portrait" />
-111-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:106:13-49
-112        <!--
-113  <activity
-114            android:name=".home.presentation.view.activity.LoginMainScreenActivity"
-115            android:resizeableActivity="false"
-116            android:exported="true"
-117            android:screenOrientation="portrait" />
-118        -->
-119        <activity
-119-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:114:9-121:55
-120            android:name="com.auro.application.home.presentation.view.activity.DashBoardMainActivity"
-120-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:115:13-82
-121            android:excludeFromRecents="false"
-121-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:117:13-47
-122            android:exported="true"
-122-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:116:13-36
+104-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:97:13-56
+105        <!--
+106 <activity
+107            android:name=".home.presentation.view.activity.VerifyWithPhoneNoActivity"
+108            android:label="@string/title_activity_verify_with_phone_no"
+109            android:resizeableActivity="false"
+110            android:exported="true"
+111            android:screenOrientation="portrait"
+112            android:theme="@style/AppTheme.NoActionBar" />
+113        -->
+114        <activity
+114-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:107:9-112:52
+115            android:name="com.auro.application.home.presentation.view.activity.OtpScreenActivity"
+115-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:108:13-78
+116            android:excludeFromRecents="false"
+116-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:110:13-47
+117            android:exported="true"
+117-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:109:13-36
+118            android:resizeableActivity="false"
+118-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:111:13-47
+119            android:screenOrientation="portrait" />
+119-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:112:13-49
+120        <!--
+121  <activity
+122            android:name=".home.presentation.view.activity.LoginMainScreenActivity"
 123            android:resizeableActivity="false"
-123-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:118:13-47
-124            android:screenOrientation="portrait"
-124-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:119:13-49
-125            android:theme="@style/AppTheme"
-125-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:120:13-44
-126            android:windowSoftInputMode="adjustPan" />
-126-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:121:13-52
+124            android:exported="true"
+125            android:screenOrientation="portrait" />
+126        -->
 127        <activity
-127-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:122:9-128:50
-128            android:name="com.auro.application.home.presentation.view.activity.HomeActivity"
-128-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:123:13-73
+127-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:120:9-127:55
+128            android:name="com.auro.application.home.presentation.view.activity.DashBoardMainActivity"
+128-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:121:13-82
 129            android:excludeFromRecents="false"
-129-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:125:13-47
+129-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:123:13-47
 130            android:exported="true"
-130-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:124:13-36
+130-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:122:13-36
 131            android:resizeableActivity="false"
-131-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:126:13-47
+131-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:124:13-47
 132            android:screenOrientation="portrait"
-132-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:127:13-49
-133            android:theme="@style/AppThemeNew" />
-133-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:128:13-47
-134        <activity
-134-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:129:9-135:55
-135            android:name="com.auro.application.home.presentation.view.activity.ForgotPinActivity"
-135-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:130:13-78
-136            android:excludeFromRecents="false"
-136-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:132:13-47
-137            android:exported="true"
-137-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:131:13-36
-138            android:resizeableActivity="false"
-138-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:133:13-47
-139            android:screenOrientation="portrait"
-139-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:134:13-49
-140            android:windowSoftInputMode="adjustPan" />
-140-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:135:13-52
-141        <activity
-141-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:137:9-143:55
-142            android:name="com.auro.application.home.presentation.view.activity.StudentProfileActivity"
-142-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:138:13-83
-143            android:excludeFromRecents="false"
-143-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:140:13-47
-144            android:exported="true"
-144-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:139:13-36
-145            android:resizeableActivity="false"
-145-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:141:13-47
-146            android:screenOrientation="portrait"
-146-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:142:13-49
-147            android:windowSoftInputMode="adjustPan" />
-147-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:143:13-52
-148        <!--
-149 <activity
-150            android:name=".home.presentation.view.activity.DashBoardHomeActivity"
-151            android:resizeableActivity="false"
+132-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:125:13-49
+133            android:theme="@style/AppTheme"
+133-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:126:13-44
+134            android:windowSoftInputMode="adjustPan" />
+134-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:127:13-52
+135        <activity
+135-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:128:9-134:50
+136            android:name="com.auro.application.home.presentation.view.activity.HomeActivity"
+136-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:129:13-73
+137            android:excludeFromRecents="false"
+137-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:131:13-47
+138            android:exported="true"
+138-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:130:13-36
+139            android:resizeableActivity="false"
+139-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:132:13-47
+140            android:screenOrientation="portrait"
+140-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:133:13-49
+141            android:theme="@style/AppThemeNew" />
+141-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:134:13-47
+142        <activity
+142-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:135:9-141:55
+143            android:name="com.auro.application.home.presentation.view.activity.ForgotPinActivity"
+143-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:136:13-78
+144            android:excludeFromRecents="false"
+144-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:138:13-47
+145            android:exported="true"
+145-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:137:13-36
+146            android:resizeableActivity="false"
+146-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:139:13-47
+147            android:screenOrientation="portrait"
+147-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:140:13-49
+148            android:windowSoftInputMode="adjustPan" />
+148-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:141:13-52
+149        <activity
+149-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:143:9-149:55
+150            android:name="com.auro.application.home.presentation.view.activity.StudentProfileActivity"
+150-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:144:13-83
+151            android:excludeFromRecents="false"
+151-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:146:13-47
 152            android:exported="true"
-153            android:screenOrientation="portrait"
-154            android:windowSoftInputMode="adjustPan" />
-155        -->
+152-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:145:13-36
+153            android:resizeableActivity="false"
+153-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:147:13-47
+154            android:screenOrientation="portrait"
+154-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:148:13-49
+155            android:windowSoftInputMode="adjustPan" />
+155-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:149:13-52
 156        <!--
-157        <activity
-158            android:name=".home.presentation.view.activity.CallVideoActivity"
+157 <activity
+158            android:name=".home.presentation.view.activity.DashBoardHomeActivity"
 159            android:resizeableActivity="false"
 160            android:exported="true"
 161            android:screenOrientation="portrait"
 162            android:windowSoftInputMode="adjustPan" />
 163        -->
-164        <activity
-164-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:160:9-166:55
-165            android:name="com.auro.application.home.presentation.view.activity.EnterPinActivity"
-165-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:161:13-77
-166            android:excludeFromRecents="false"
-166-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:163:13-47
-167            android:exported="true"
-167-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:162:13-36
-168            android:resizeableActivity="false"
-168-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:164:13-47
+164        <!--
+165        <activity
+166            android:name=".home.presentation.view.activity.CallVideoActivity"
+167            android:resizeableActivity="false"
+168            android:exported="true"
 169            android:screenOrientation="portrait"
-169-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:165:13-49
 170            android:windowSoftInputMode="adjustPan" />
-170-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:166:13-52
-171        <activity
-171-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:167:9-173:55
-172            android:name="com.auro.application.home.presentation.view.activity.EnterStudentPinActivity"
-172-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:168:13-84
-173            android:excludeFromRecents="false"
-173-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:170:13-47
-174            android:exported="true"
-174-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:169:13-36
-175            android:resizeableActivity="false"
-175-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:171:13-47
-176            android:screenOrientation="portrait"
-176-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:172:13-49
-177            android:windowSoftInputMode="adjustPan" />
-177-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:173:13-52
-178
-179        <uses-library
-179-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:175:9-177:40
-180            android:name="org.apache.http.legacy"
-180-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:176:13-50
-181            android:required="false" />
-181-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:177:13-37
-182
-183        <!-- android:autoRemoveFromRecents="false" -->
-184        <!-- android:excludeFromRecents="false" -->
-185
-186        <activity
-186-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:183:9-233:20
-187            android:name="com.auro.application.home.presentation.view.activity.SplashScreenAnimationActivity"
-187-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:184:13-90
-188            android:configChanges="locale"
-188-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:185:13-43
-189            android:exported="true"
-189-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:186:13-36
-190            android:resizeableActivity="false"
-190-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:188:13-47
-191            android:screenOrientation="portrait"
-191-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:189:13-49
-192            android:theme="@style/AppTheme" >
-192-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:190:13-44
+171        -->
+172        <activity
+172-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:166:9-172:55
+173            android:name="com.auro.application.home.presentation.view.activity.EnterPinActivity"
+173-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:167:13-77
+174            android:excludeFromRecents="false"
+174-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:169:13-47
+175            android:exported="true"
+175-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:168:13-36
+176            android:resizeableActivity="false"
+176-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:170:13-47
+177            android:screenOrientation="portrait"
+177-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:171:13-49
+178            android:windowSoftInputMode="adjustPan" />
+178-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:172:13-52
+179        <activity
+179-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:173:9-179:55
+180            android:name="com.auro.application.home.presentation.view.activity.EnterStudentPinActivity"
+180-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:174:13-84
+181            android:excludeFromRecents="false"
+181-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:176:13-47
+182            android:exported="true"
+182-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:175:13-36
+183            android:resizeableActivity="false"
+183-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:177:13-47
+184            android:screenOrientation="portrait"
+184-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:178:13-49
+185            android:windowSoftInputMode="adjustPan" />
+185-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:179:13-52
+186
+187        <uses-library
+187-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:181:9-183:40
+188            android:name="org.apache.http.legacy"
+188-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:182:13-50
+189            android:required="false" />
+189-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:183:13-37
+190
+191        <!-- android:autoRemoveFromRecents="false" -->
+192        <!-- android:excludeFromRecents="false" -->
 193
-194            <!-- <intent-filter> -->
-195            <!-- <action android:name="android.intent.action.MAIN" /> -->
-196
-197
-198            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-199            <!-- </intent-filter> -->
-200            <!-- <intent-filter -->
-201            <!-- android:autoVerify="true" -->
-202            <!-- tools:targetApi="m"> -->
-203            <!-- <action android:name="android.intent.action.VIEW" /> -->
+194        <activity
+194-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:189:9-239:20
+195            android:name="com.auro.application.home.presentation.view.activity.SplashScreenAnimationActivity"
+195-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:190:13-90
+196            android:configChanges="locale"
+196-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:191:13-43
+197            android:exported="true"
+197-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:192:13-36
+198            android:resizeableActivity="false"
+198-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:194:13-47
+199            android:screenOrientation="portrait"
+199-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:195:13-49
+200            android:theme="@style/AppTheme" >
+200-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:196:13-44
+201
+202            <!-- <intent-filter> -->
+203            <!-- <action android:name="android.intent.action.MAIN" /> -->
 204
 205
-206            <!-- <category android:name="android.intent.category.DEFAULT" /> -->
-207            <!-- <category android:name="android.intent.category.BROWSABLE" /> -->
-208
-209
-210            <!-- <data android:scheme="auroscholar" /> -->
-211            <!-- </intent-filter> -->
-212            <!-- <intent-filter> -->
+206            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+207            <!-- </intent-filter> -->
+208            <!-- <intent-filter -->
+209            <!-- android:autoVerify="true" -->
+210            <!-- tools:targetApi="m"> -->
+211            <!-- <action android:name="android.intent.action.VIEW" /> -->
+212
 213
-214
-215            <!-- &lt;!&ndash; by google firebase deeplink &ndash;&gt; -->
-216            <!-- <action android:name="android.intent.VIEW" /> -->
+214            <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+215            <!-- <category android:name="android.intent.category.BROWSABLE" /> -->
+216
 217
-218
-219            <!-- <category android:name="amdroid.intent.category.DEFAULT" /> -->
-220            <!-- <category android:name="android.intent.category.BROWSABLE" /> -->
+218            <!-- <data android:scheme="auroscholar" /> -->
+219            <!-- </intent-filter> -->
+220            <!-- <intent-filter> -->
 221
 222
-223            <!-- <data -->
-224            <!-- android:host="auroscholarapp.page.link" -->
-225            <!-- android:scheme="app" /> -->
+223            <!-- &lt;!&ndash; by google firebase deeplink &ndash;&gt; -->
+224            <!-- <action android:name="android.intent.VIEW" /> -->
+225
 226
-227
-228            <!-- &lt;!&ndash; by google for web &ndash;&gt; -->
-229            <!-- <action android:name="android.intent.action.VIEW" /> -->
+227            <!-- <category android:name="amdroid.intent.category.DEFAULT" /> -->
+228            <!-- <category android:name="android.intent.category.BROWSABLE" /> -->
+229
 230
-231
-232            <!-- <category android:name="android.intent.category.DEFAULT" /> -->
-233
+231            <!-- <data -->
+232            <!-- android:host="auroscholarapp.page.link" -->
+233            <!-- android:scheme="app" /> -->
 234
-235            <!-- <data android:scheme="auroapp" /> -->
-236            <!-- <data -->
-237            <!-- android:host="auroscholar.com" -->
-238            <!-- android:pathPattern=".*" -->
-239            <!-- android:scheme="https" /> -->
-240            <!-- <data -->
-241            <!-- android:host="auroscholar.page.link" -->
-242            <!-- android:pathPattern=".*" -->
-243            <!-- android:scheme="app" /> -->
-244            <!-- </intent-filter> -->
-245        </activity>
-246
-247        <meta-data
-247-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:235:9-237:55
-248            android:name="com.facebook.sdk.ApplicationId"
-248-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:236:13-58
-249            android:value="@string/facebook_app_id" />
-249-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:237:13-52
-250
-251        <activity
-251-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:239:9-245:52
-252            android:name="com.facebook.FacebookActivity"
-252-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:240:13-57
-253            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-253-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:241:13-96
-254            android:exported="true"
-254-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:242:13-36
-255            android:label="@string/app_name"
-255-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:243:13-45
-256            android:resizeableActivity="false"
-256-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:244:13-47
-257            android:screenOrientation="portrait" />
-257-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:245:13-49
+235
+236            <!-- &lt;!&ndash; by google for web &ndash;&gt; -->
+237            <!-- <action android:name="android.intent.action.VIEW" /> -->
+238
+239
+240            <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+241
+242
+243            <!-- <data android:scheme="auroapp" /> -->
+244            <!-- <data -->
+245            <!-- android:host="auroscholar.com" -->
+246            <!-- android:pathPattern=".*" -->
+247            <!-- android:scheme="https" /> -->
+248            <!-- <data -->
+249            <!-- android:host="auroscholar.page.link" -->
+250            <!-- android:pathPattern=".*" -->
+251            <!-- android:scheme="app" /> -->
+252            <!-- </intent-filter> -->
+253        </activity>
+254
+255        <meta-data
+255-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:241:9-243:55
+256            android:name="com.facebook.sdk.ApplicationId"
+256-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:242:13-58
+257            android:value="@string/facebook_app_id" />
+257-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:243:13-52
 258
-259        <meta-data
-259-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:247:9-249:50
-260            android:name="com.truecaller.android.sdk.PartnerKey"
-260-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:248:13-65
-261            android:value="@string/partnerKey" />
-261-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:249:13-47
-262        <meta-data
-262-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:250:9-252:36
-263            android:name="firebase_performance_logcat_enabled"
-263-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:251:13-63
-264            android:value="true" />
-264-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:252:13-33
-265
-266        <service
-266-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:254:9-260:19
-267            android:name="com.auro.application.util.firebase.FirebaseMessagingService"
-267-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:255:13-67
-268            android:exported="false" >
-268-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:256:13-37
-269            <intent-filter>
-269-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:257:13-259:29
-270                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-270-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:258:17-78
-270-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:258:25-75
-271            </intent-filter>
-272        </service>
+259        <activity
+259-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:245:9-251:52
+260            android:name="com.facebook.FacebookActivity"
+260-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:246:13-57
+261            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+261-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:247:13-96
+262            android:exported="true"
+262-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:248:13-36
+263            android:label="@string/app_name"
+263-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:249:13-45
+264            android:resizeableActivity="false"
+264-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:250:13-47
+265            android:screenOrientation="portrait" />
+265-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:251:13-49
+266
+267        <meta-data
+267-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:253:9-255:50
+268            android:name="com.truecaller.android.sdk.PartnerKey"
+268-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:254:13-65
+269            android:value="@string/partnerKey" />
+269-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:255:13-47
+270        <meta-data
+270-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:256:9-258:36
+271            android:name="firebase_performance_logcat_enabled"
+271-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:257:13-63
+272            android:value="true" />
+272-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:258:13-33
 273
-274        <activity
-274-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:262:9-266:52
-275            android:name="com.auro.application.util.permission.PermissionsActivity"
-275-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:263:13-64
-276            android:exported="true"
-276-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:264:13-36
-277            android:resizeableActivity="false"
-277-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:265:13-47
-278            android:screenOrientation="portrait" />
-278-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:266:13-49
-279        <activity
-279-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:267:9-269
-280            android:name="com.auro.application.home.presentation.view.activity.CameraActivity"
-280-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:267:19-81
-281            android:exported="true"
-281-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:267:172-195
-282            android:label="@string/title_activity_camera"
-282-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:267:126-171
-283            android:resizeableActivity="false"
-283-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:267:196-230
-284            android:screenOrientation="portrait"
-284-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:267:231-267
-285            android:theme="@style/AppTheme.NoActionBar" />
-285-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:267:82-125
-286        <activity
-286-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:268:9-274:59
-287            android:name="com.auro.application.util.cropper.CropImagesActivity"
-287-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:269:13-60
-288            android:configChanges="locale"
-288-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:270:13-43
+274        <service
+274-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:260:9-266:19
+275            android:name="com.auro.application.util.firebase.FirebaseMessagingService"
+275-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:261:13-67
+276            android:exported="true" >
+276-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:262:13-36
+277            <intent-filter>
+277-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:263:13-265:29
+278                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+278-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:264:17-78
+278-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:264:25-75
+279            </intent-filter>
+280        </service>
+281
+282        <activity
+282-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:268:9-272:52
+283            android:name="com.auro.application.util.permission.PermissionsActivity"
+283-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:269:13-64
+284            android:exported="true"
+284-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:270:13-36
+285            android:resizeableActivity="false"
+285-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:271:13-47
+286            android:screenOrientation="portrait" />
+286-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:272:13-49
+287        <activity
+287-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:273:9-269
+288            android:name="com.auro.application.home.presentation.view.activity.CameraActivity"
+288-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:273:19-81
 289            android:exported="true"
-289-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:271:13-36
-290            android:resizeableActivity="false"
-290-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:272:13-47
-291            android:screenOrientation="portrait"
-291-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:273:13-49
-292            android:theme="@style/Base.Theme.AppCompat" />
-292-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:274:13-56
-293        <activity
-293-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:275:9-280:52
-294            android:name="com.auro.application.RealTimeFaceDetection.CameraxActivity"
-294-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:276:13-66
-295            android:configChanges="locale"
-295-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:277:13-43
-296            android:exported="true"
-296-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:278:13-36
-297            android:resizeableActivity="false"
-297-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:279:13-47
-298            android:screenOrientation="portrait" />
-298-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:280:13-49
-299
-300        <meta-data
-300-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:282:9-284:71
-301            android:name="com.google.android.geo.API_KEY"
-301-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:283:13-58
-302            android:value="AIzaSyDjbnwn833et_t7M6D0vVP_LSOMz-IdHPQ" />
-302-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:284:13-68
-303        <meta-data
-303-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:285:9-287:36
-304            android:name="firebase_crashlytics_collection_enabled"
-304-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:286:13-67
-305            android:value="true" />
-305-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:287:13-33
-306
-307        <receiver
-307-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:289:9-295:20
-308            android:name="com.auro.application.util.otp_verification.SMSReceiver"
-308-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:290:13-62
-309            android:exported="true" >
-309-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:291:13-36
-310            <intent-filter>
-310-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:292:13-294:29
-311                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
-311-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:293:17-82
-311-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:293:25-79
-312            </intent-filter>
-313        </receiver>
+289-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:273:172-195
+290            android:label="@string/title_activity_camera"
+290-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:273:126-171
+291            android:resizeableActivity="false"
+291-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:273:196-230
+292            android:screenOrientation="portrait"
+292-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:273:231-267
+293            android:theme="@style/AppTheme.NoActionBar" />
+293-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:273:82-125
+294        <activity
+294-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:274:9-280:59
+295            android:name="com.auro.application.util.cropper.CropImagesActivity"
+295-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:275:13-60
+296            android:configChanges="locale"
+296-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:276:13-43
+297            android:exported="true"
+297-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:277:13-36
+298            android:resizeableActivity="false"
+298-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:278:13-47
+299            android:screenOrientation="portrait"
+299-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:279:13-49
+300            android:theme="@style/Base.Theme.AppCompat" />
+300-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:280:13-56
+301        <activity
+301-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:281:9-286:52
+302            android:name="com.auro.application.RealTimeFaceDetection.CameraxActivity"
+302-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:282:13-66
+303            android:configChanges="locale"
+303-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:283:13-43
+304            android:exported="true"
+304-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:284:13-36
+305            android:resizeableActivity="false"
+305-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:285:13-47
+306            android:screenOrientation="portrait" />
+306-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:286:13-49
+307
+308        <meta-data
+308-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:288:9-290:71
+309            android:name="com.google.android.geo.API_KEY"
+309-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:289:13-58
+310            android:value="AIzaSyDjbnwn833et_t7M6D0vVP_LSOMz-IdHPQ" />
+310-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:290:13-68
+311        <meta-data
+311-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:291:9-293:36
+312            android:name="firebase_crashlytics_collection_enabled"
+312-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:292:13-67
+313            android:value="true" />
+313-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:293:13-33
 314
-315        <activity
-315-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:297:9-303:47
-316            android:name="com.auro.application.home.presentation.view.activity.LoginActivity"
-316-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:298:13-74
-317            android:configChanges="locale"
-317-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:299:13-43
-318            android:exported="true"
-318-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:300:13-36
-319            android:resizeableActivity="false"
-319-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:301:13-47
-320            android:screenOrientation="portrait"
-320-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:302:13-49
-321            android:theme="@style/AppTheme" />
-321-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:303:13-44
-322        <activity
-322-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:304:9-310:47
-323            android:name="com.auro.application.home.presentation.view.activity.OtpActivity"
-323-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:305:13-72
-324            android:configChanges="locale"
-324-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:306:13-43
-325            android:exported="true"
-325-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:307:13-36
-326            android:resizeableActivity="false"
-326-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:308:13-47
-327            android:screenOrientation="portrait"
-327-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:309:13-49
-328            android:theme="@style/AppTheme" />
-328-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:310:13-44
-329        <activity android:name="com.auro.application.home.presentation.view.activity.ChooseGradeActivity" />
-329-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:311:9-89
-329-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:311:19-86
+315        <receiver
+315-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:295:9-301:20
+316            android:name="com.auro.application.util.otp_verification.SMSReceiver"
+316-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:296:13-62
+317            android:exported="true" >
+317-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:297:13-36
+318            <intent-filter>
+318-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:298:13-300:29
+319                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+319-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:299:17-82
+319-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:299:25-79
+320            </intent-filter>
+321        </receiver>
+322
+323        <activity
+323-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:303:9-309:47
+324            android:name="com.auro.application.home.presentation.view.activity.LoginActivity"
+324-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:304:13-74
+325            android:configChanges="locale"
+325-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:305:13-43
+326            android:exported="true"
+326-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:306:13-36
+327            android:resizeableActivity="false"
+327-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:307:13-47
+328            android:screenOrientation="portrait"
+328-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:308:13-49
+329            android:theme="@style/AppTheme" />
+329-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:309:13-44
 330        <activity
-330-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:312:9-317:52
-331            android:name="com.auro.application.home.presentation.view.activity.AppLanguageActivity"
-331-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:313:13-80
+330-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:310:9-316:47
+331            android:name="com.auro.application.home.presentation.view.activity.OtpActivity"
+331-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:311:13-72
 332            android:configChanges="locale"
-332-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:314:13-43
+332-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:312:13-43
 333            android:exported="true"
-333-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:315:13-36
+333-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:313:13-36
 334            android:resizeableActivity="false"
-334-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:316:13-47
-335            android:screenOrientation="portrait" />
-335-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:317:13-49
-336        <activity
-336-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:318:9-324:50
-337            android:name="com.auro.application.home.presentation.view.activity.UserProfileActivity"
-337-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:319:13-80
-338            android:configChanges="locale"
-338-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:320:13-43
-339            android:exported="true"
-339-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:321:13-36
-340            android:resizeableActivity="false"
-340-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:322:13-47
-341            android:screenOrientation="portrait"
-341-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:323:13-49
-342            android:theme="@style/AppThemeNew" />
-342-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:324:13-47
-343        <activity
-343-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:325:9-331:50
-344            android:name="com.auro.application.home.presentation.view.activity.ParentProfileActivity"
-344-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:326:13-82
-345            android:configChanges="locale"
-345-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:327:13-43
-346            android:exported="true"
-346-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:328:13-36
-347            android:resizeableActivity="false"
-347-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:329:13-47
-348            android:screenOrientation="portrait"
-348-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:330:13-49
-349            android:theme="@style/AppThemeNew" />
-349-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:331:13-47
-350        <activity
-350-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:332:9-338:50
-351            android:name="com.auro.application.home.presentation.view.activity.ParentForgotPinActivity"
-351-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:333:13-84
-352            android:configChanges="locale"
-352-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:334:13-43
-353            android:exported="true"
-353-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:335:13-36
-354            android:resizeableActivity="false"
-354-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:336:13-47
-355            android:screenOrientation="portrait"
-355-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:337:13-49
-356            android:theme="@style/AppThemeNew" />
-356-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:338:13-47
-357        <activity
-357-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:339:9-345:50
-358            android:name="com.auro.application.home.presentation.view.activity.ChildAccountsActivity"
-358-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:340:13-82
-359            android:configChanges="locale"
-359-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:341:13-43
-360            android:exported="true"
-360-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:342:13-36
-361            android:resizeableActivity="false"
-361-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:343:13-47
-362            android:screenOrientation="portrait"
-362-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:344:13-49
-363            android:theme="@style/AppThemeNew" />
-363-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:345:13-47
-364        <activity
-364-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:346:9-352:50
-365            android:name="com.auro.application.teacher.presentation.view.activity.TeacherProfileActivity"
-365-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:347:13-86
-366            android:configChanges="locale"
-366-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:348:13-43
-367            android:exported="true"
-367-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:349:13-36
-368            android:resizeableActivity="false"
-368-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:350:13-47
-369            android:screenOrientation="portrait"
-369-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:351:13-49
-370            android:theme="@style/AppThemeNew" />
-370-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:352:13-47
-371        <activity
-371-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:353:9-359:50
-372            android:name="com.auro.application.home.presentation.view.activity.ValidateStudentActivity"
-372-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:354:13-84
-373            android:configChanges="locale"
-373-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:355:13-43
-374            android:exported="true"
-374-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:356:13-36
-375            android:resizeableActivity="false"
-375-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:357:13-47
-376            android:screenOrientation="portrait"
-376-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:358:13-49
-377            android:theme="@style/AppThemeNew" />
-377-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:359:13-47
-378        <activity
-378-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:360:9-366:50
-379            android:name="com.auro.application.home.presentation.view.activity.EnterNumberActivity"
-379-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:361:13-80
-380            android:configChanges="locale"
-380-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:362:13-43
-381            android:exported="true"
-381-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:363:13-36
-382            android:resizeableActivity="false"
-382-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:364:13-47
-383            android:screenOrientation="portrait"
-383-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:365:13-49
-384            android:theme="@style/AppThemeNew" />
-384-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:366:13-47
-385        <activity
-385-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:367:9-373:50
-386            android:name="com.auro.application.home.presentation.view.activity.UpdateChildPinActivity"
-386-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:368:13-83
-387            android:configChanges="locale"
-387-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:369:13-43
-388            android:exported="true"
-388-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:370:13-36
-389            android:resizeableActivity="false"
-389-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:371:13-47
-390            android:screenOrientation="portrait"
-390-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:372:13-49
-391            android:theme="@style/AppThemeNew" />
-391-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:373:13-47
-392        <activity
-392-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:374:9-380:50
-393            android:name="com.auro.application.home.presentation.view.activity.CompleteStudentProfileWithPinActivity"
-393-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:375:13-98
-394            android:configChanges="locale"
-394-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:376:13-43
-395            android:exported="true"
-395-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:377:13-36
-396            android:resizeableActivity="false"
-396-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:378:13-47
-397            android:screenOrientation="portrait"
-397-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:379:13-49
-398            android:theme="@style/AppThemeNew" />
-398-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:380:13-47
-399        <activity
-399-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:381:9-387:50
-400            android:name="com.auro.application.home.presentation.view.activity.CompleteStudentProfileWithoutPin"
-400-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:382:13-93
-401            android:configChanges="locale"
-401-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:383:13-43
-402            android:exported="true"
-402-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:384:13-36
-403            android:resizeableActivity="false"
-403-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:385:13-47
-404            android:screenOrientation="portrait"
-404-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:386:13-49
-405            android:theme="@style/AppThemeNew" />
-405-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:387:13-47
-406        <activity
-406-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:388:9-394:50
-407            android:name="com.auro.application.home.presentation.view.activity.SetParentPinActivity"
-407-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:389:13-81
-408            android:configChanges="locale"
-408-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:390:13-43
-409            android:exported="true"
-409-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:391:13-36
-410            android:resizeableActivity="false"
-410-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:392:13-47
-411            android:screenOrientation="portrait"
-411-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:393:13-49
-412            android:theme="@style/AppThemeNew" />
-412-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:394:13-47
-413        <activity
-413-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:395:9-401:50
-414            android:name="com.auro.application.home.presentation.view.activity.EnterParentPinActivity"
-414-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:396:13-83
-415            android:configChanges="locale"
-415-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:397:13-43
-416            android:exported="true"
-416-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:398:13-36
-417            android:resizeableActivity="false"
-417-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:399:13-47
-418            android:screenOrientation="portrait"
-418-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:400:13-49
-419            android:theme="@style/AppThemeNew" />
-419-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:401:13-47
-420        <activity
-420-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:402:9-407:57
-421            android:name="com.wuadam.awesomewebview.AwesomeWebViewActivity"
-421-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:403:13-76
-422            android:exported="true"
-422-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:404:13-36
-423            android:resizeableActivity="false"
-423-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:405:13-47
-424            android:screenOrientation="portrait"
-424-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:406:13-49
-425            android:theme="@style/FinestWebViewTheme" />
-425-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:407:13-54
-426        <activity
-426-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:408:9-414:50
-427            android:name="com.auro.application.home.presentation.view.fragment.SubjectPreferencesActivity"
-427-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:409:13-87
-428            android:configChanges="locale"
-428-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:410:13-43
-429            android:exported="true"
-429-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:411:13-36
-430            android:resizeableActivity="false"
-430-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:412:13-47
-431            android:screenOrientation="portrait"
-431-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:413:13-49
-432            android:theme="@style/AppThemeNew" />
-432-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:414:13-47
-433
-434        <provider
-434-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:416:9-424:20
-435            android:name="androidx.core.content.FileProvider"
-435-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:417:13-62
-436            android:authorities="${applicationId}.provider"
-436-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:418:13-60
-437            android:exported="false"
-437-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:419:13-37
-438            android:grantUriPermissions="true" >
-438-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:420:13-47
-439            <meta-data
-439-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:421:13-423:54
-440                android:name="android.support.FILE_PROVIDER_PATHS"
-440-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:422:17-67
-441                android:resource="@xml/file_paths" />
-441-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:423:17-51
-442        </provider>
-443        <!-- <meta-data android:name="io.branch.sdk.BranchKey" android:value="key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Sw" /> -->
-444        <meta-data
-444-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:426:9-124
-445            android:name="io.branch.sdk.BranchKey.test"
-445-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:426:20-63
-446            android:value="key_test_jf0R75AtAJGxQ60GJpaDfffgyyd6rDg0" />
-446-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:426:64-121
-447        <meta-data
-447-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:427:9-82
-448            android:name="io.branch.sdk.TestMode"
-448-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:427:20-57
-449            android:value="false" />
-449-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:427:58-79
-450
-451        <!-- <intent-filter> -->
-452        <!-- &lt;!&ndash; If utilizing $deeplink_path please explicitly declare your hosts, or utilize a wildcard(*) &ndash;&gt; -->
-453        <!-- <data android:scheme="yourapp" android:host="open" /> -->
-454        <!-- <action android:name="android.intent.action.VIEW" /> -->
-455        <!-- <category android:name="android.intent.category.DEFAULT" /> -->
-456        <!-- <category android:name="android.intent.category.BROWSABLE" /> -->
-457        <!-- </intent-filter> -->
+334-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:314:13-47
+335            android:screenOrientation="portrait"
+335-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:315:13-49
+336            android:theme="@style/AppTheme" />
+336-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:316:13-44
+337        <activity android:name="com.auro.application.home.presentation.view.activity.ChooseGradeActivity" />
+337-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:317:9-89
+337-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:317:19-86
+338        <activity
+338-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:318:9-323:52
+339            android:name="com.auro.application.home.presentation.view.activity.AppLanguageActivity"
+339-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:319:13-80
+340            android:configChanges="locale"
+340-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:320:13-43
+341            android:exported="true"
+341-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:321:13-36
+342            android:resizeableActivity="false"
+342-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:322:13-47
+343            android:screenOrientation="portrait" />
+343-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:323:13-49
+344        <activity
+344-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:324:9-330:50
+345            android:name="com.auro.application.home.presentation.view.activity.UserProfileActivity"
+345-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:325:13-80
+346            android:configChanges="locale"
+346-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:326:13-43
+347            android:exported="true"
+347-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:327:13-36
+348            android:resizeableActivity="false"
+348-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:328:13-47
+349            android:screenOrientation="portrait"
+349-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:329:13-49
+350            android:theme="@style/AppThemeNew" />
+350-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:330:13-47
+351        <activity
+351-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:331:9-337:50
+352            android:name="com.auro.application.home.presentation.view.activity.ParentProfileActivity"
+352-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:332:13-82
+353            android:configChanges="locale"
+353-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:333:13-43
+354            android:exported="true"
+354-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:334:13-36
+355            android:resizeableActivity="false"
+355-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:335:13-47
+356            android:screenOrientation="portrait"
+356-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:336:13-49
+357            android:theme="@style/AppThemeNew" />
+357-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:337:13-47
+358        <activity
+358-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:338:9-344:50
+359            android:name="com.auro.application.home.presentation.view.activity.ParentForgotPinActivity"
+359-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:339:13-84
+360            android:configChanges="locale"
+360-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:340:13-43
+361            android:exported="true"
+361-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:341:13-36
+362            android:resizeableActivity="false"
+362-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:342:13-47
+363            android:screenOrientation="portrait"
+363-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:343:13-49
+364            android:theme="@style/AppThemeNew" />
+364-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:344:13-47
+365        <activity
+365-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:345:9-351:50
+366            android:name="com.auro.application.home.presentation.view.activity.ChildAccountsActivity"
+366-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:346:13-82
+367            android:configChanges="locale"
+367-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:347:13-43
+368            android:exported="true"
+368-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:348:13-36
+369            android:resizeableActivity="false"
+369-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:349:13-47
+370            android:screenOrientation="portrait"
+370-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:350:13-49
+371            android:theme="@style/AppThemeNew" />
+371-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:351:13-47
+372        <activity
+372-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:352:9-358:50
+373            android:name="com.auro.application.teacher.presentation.view.activity.TeacherProfileActivity"
+373-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:353:13-86
+374            android:configChanges="locale"
+374-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:354:13-43
+375            android:exported="true"
+375-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:355:13-36
+376            android:resizeableActivity="false"
+376-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:356:13-47
+377            android:screenOrientation="portrait"
+377-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:357:13-49
+378            android:theme="@style/AppThemeNew" />
+378-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:358:13-47
+379        <activity
+379-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:359:9-365:50
+380            android:name="com.auro.application.home.presentation.view.activity.ValidateStudentActivity"
+380-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:360:13-84
+381            android:configChanges="locale"
+381-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:361:13-43
+382            android:exported="true"
+382-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:362:13-36
+383            android:resizeableActivity="false"
+383-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:363:13-47
+384            android:screenOrientation="portrait"
+384-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:364:13-49
+385            android:theme="@style/AppThemeNew" />
+385-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:365:13-47
+386        <activity
+386-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:366:9-372:50
+387            android:name="com.auro.application.home.presentation.view.activity.EnterNumberActivity"
+387-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:367:13-80
+388            android:configChanges="locale"
+388-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:368:13-43
+389            android:exported="true"
+389-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:369:13-36
+390            android:resizeableActivity="false"
+390-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:370:13-47
+391            android:screenOrientation="portrait"
+391-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:371:13-49
+392            android:theme="@style/AppThemeNew" />
+392-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:372:13-47
+393        <activity
+393-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:373:9-379:50
+394            android:name="com.auro.application.home.presentation.view.activity.UpdateChildPinActivity"
+394-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:374:13-83
+395            android:configChanges="locale"
+395-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:375:13-43
+396            android:exported="true"
+396-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:376:13-36
+397            android:resizeableActivity="false"
+397-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:377:13-47
+398            android:screenOrientation="portrait"
+398-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:378:13-49
+399            android:theme="@style/AppThemeNew" />
+399-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:379:13-47
+400        <activity
+400-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:380:9-386:50
+401            android:name="com.auro.application.home.presentation.view.activity.CompleteStudentProfileWithPinActivity"
+401-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:381:13-98
+402            android:configChanges="locale"
+402-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:382:13-43
+403            android:exported="true"
+403-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:383:13-36
+404            android:resizeableActivity="false"
+404-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:384:13-47
+405            android:screenOrientation="portrait"
+405-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:385:13-49
+406            android:theme="@style/AppThemeNew" />
+406-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:386:13-47
+407        <activity
+407-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:387:9-393:50
+408            android:name="com.auro.application.home.presentation.view.activity.CompleteStudentProfileWithoutPin"
+408-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:388:13-93
+409            android:configChanges="locale"
+409-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:389:13-43
+410            android:exported="true"
+410-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:390:13-36
+411            android:resizeableActivity="false"
+411-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:391:13-47
+412            android:screenOrientation="portrait"
+412-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:392:13-49
+413            android:theme="@style/AppThemeNew" />
+413-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:393:13-47
+414        <activity
+414-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:394:9-400:50
+415            android:name="com.auro.application.home.presentation.view.activity.SetParentPinActivity"
+415-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:395:13-81
+416            android:configChanges="locale"
+416-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:396:13-43
+417            android:exported="true"
+417-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:397:13-36
+418            android:resizeableActivity="false"
+418-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:398:13-47
+419            android:screenOrientation="portrait"
+419-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:399:13-49
+420            android:theme="@style/AppThemeNew" />
+420-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:400:13-47
+421        <activity
+421-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:401:9-407:50
+422            android:name="com.auro.application.home.presentation.view.activity.EnterParentPinActivity"
+422-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:402:13-83
+423            android:configChanges="locale"
+423-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:403:13-43
+424            android:exported="true"
+424-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:404:13-36
+425            android:resizeableActivity="false"
+425-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:405:13-47
+426            android:screenOrientation="portrait"
+426-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:406:13-49
+427            android:theme="@style/AppThemeNew" />
+427-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:407:13-47
+428        <activity
+428-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:408:9-413:57
+429            android:name="com.wuadam.awesomewebview.AwesomeWebViewActivity"
+429-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:409:13-76
+430            android:exported="true"
+430-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:410:13-36
+431            android:resizeableActivity="false"
+431-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:411:13-47
+432            android:screenOrientation="portrait"
+432-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:412:13-49
+433            android:theme="@style/FinestWebViewTheme" />
+433-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:413:13-54
+434        <activity
+434-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:414:9-420:50
+435            android:name="com.auro.application.home.presentation.view.fragment.SubjectPreferencesActivity"
+435-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:415:13-87
+436            android:configChanges="locale"
+436-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:416:13-43
+437            android:exported="true"
+437-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:417:13-36
+438            android:resizeableActivity="false"
+438-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:418:13-47
+439            android:screenOrientation="portrait"
+439-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:419:13-49
+440            android:theme="@style/AppThemeNew" />
+440-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:420:13-47
+441
+442        <provider
+442-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:422:9-430:20
+443            android:name="androidx.core.content.FileProvider"
+443-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:423:13-62
+444            android:authorities="${applicationId}.provider"
+444-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:424:13-60
+445            android:exported="false"
+445-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:425:13-37
+446            android:grantUriPermissions="true" >
+446-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:426:13-47
+447            <meta-data
+447-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:427:13-429:54
+448                android:name="android.support.FILE_PROVIDER_PATHS"
+448-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:428:17-67
+449                android:resource="@xml/file_paths" />
+449-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:429:17-51
+450        </provider>
+451        <!-- <meta-data android:name="io.branch.sdk.BranchKey" android:value="key_live_kaFuWw8WvY7yn1d9yYiP8gokwqjV0Sw" /> -->
+452        <meta-data
+452-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:432:9-124
+453            android:name="io.branch.sdk.BranchKey.test"
+453-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:432:20-63
+454            android:value="key_test_jf0R75AtAJGxQ60GJpaDfffgyyd6rDg0" />
+454-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:432:64-121
+455        <meta-data
+455-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:433:9-82
+456            android:name="io.branch.sdk.TestMode"
+456-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:433:20-57
+457            android:value="false" />
+457-->C:\Users\user\AndroidStudioProjects\ankesh_auroscholar_application\SDK AUROSCHOLAR\ImplementAuroApp\auroscholarapp\src\main\AndroidManifest.xml:433:58-79
 458
-459
-460        <!-- &lt;!&ndash; Branch App Links &ndash;&gt; -->
-461        <!-- <intent-filter android:autoVerify="true"> -->
+459        <!-- <intent-filter> -->
+460        <!-- &lt;!&ndash; If utilizing $deeplink_path please explicitly declare your hosts, or utilize a wildcard(*) &ndash;&gt; -->
+461        <!-- <data android:scheme="yourapp" android:host="open" /> -->
 462        <!-- <action android:name="android.intent.action.VIEW" /> -->
 463        <!-- <category android:name="android.intent.category.DEFAULT" /> -->
 464        <!-- <category android:name="android.intent.category.BROWSABLE" /> -->
-465        <!-- <data android:scheme="https" android:host="example.app.link" /> -->
-466        <!-- &lt;!&ndash; example-alternate domain is required for App Links when the Journeys/Web SDK and Deepviews are used inside your website.  &ndash;&gt; -->
-467        <!-- <data android:scheme="https" android:host="example-alternate.app.link" /> -->
-468        <!-- </intent-filter> -->
-469
-470    </application>
-471
-472</manifest>
+465        <!-- </intent-filter> -->
+466
+467
+468        <!-- &lt;!&ndash; Branch App Links &ndash;&gt; -->
+469        <!-- <intent-filter android:autoVerify="true"> -->
+470        <!-- <action android:name="android.intent.action.VIEW" /> -->
+471        <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+472        <!-- <category android:name="android.intent.category.BROWSABLE" /> -->
+473        <!-- <data android:scheme="https" android:host="example.app.link" /> -->
+474        <!-- &lt;!&ndash; example-alternate domain is required for App Links when the Journeys/Web SDK and Deepviews are used inside your website.  &ndash;&gt; -->
+475        <!-- <data android:scheme="https" android:host="example-alternate.app.link" /> -->
+476        <!-- </intent-filter> -->
+477
+478    </application>
+479
+480</manifest>

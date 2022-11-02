@@ -106,13 +106,16 @@ public class FragmentMainQuizHomeBindingLargeImpl extends FragmentMainQuizHomeBi
             , (android.widget.RelativeLayout) bindings[22]
             );
         this.errorConstraint.setTag(null);
+        setContainedBinding(this.errorLayout);
         this.mainParentLayout.setTag(null);
         this.mboundView0 = (android.widget.RelativeLayout) bindings[0];
         this.mboundView2 = (android.widget.LinearLayout) bindings[2];
         this.mboundView2.setTag(null);
         this.mboundView3 = (com.auro.application.databinding.FragmentMainQuizHomeShimmerBinding) bindings[7];
         setContainedBinding(this.mboundView3);
+        setContainedBinding(this.quizSelectionSheet);
         this.shimmerViewQuiz.setTag(null);
+        setContainedBinding(this.slabLayout);
         setRootTag(root);
         // listeners
         invalidateAll();

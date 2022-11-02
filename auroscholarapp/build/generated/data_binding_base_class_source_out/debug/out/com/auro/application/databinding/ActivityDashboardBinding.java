@@ -29,7 +29,6 @@ public abstract class ActivityDashboardBinding extends ViewDataBinding {
       NavigationContentLayoutBinding naviagtionContent, ConstraintLayout parentLayout) {
     super(_bindingComponent, _root, _localFieldCount);
     this.naviagtionContent = naviagtionContent;
-    setContainedBinding(this.naviagtionContent);
     this.parentLayout = parentLayout;
   }
 

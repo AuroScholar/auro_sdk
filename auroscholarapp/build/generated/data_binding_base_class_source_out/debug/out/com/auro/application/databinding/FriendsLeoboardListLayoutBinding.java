@@ -117,16 +117,13 @@ public abstract class FriendsLeoboardListLayoutBinding extends ViewDataBinding {
     this.boardListLayout = boardListLayout;
     this.errorConstraint = errorConstraint;
     this.errorLayout = errorLayout;
-    setContainedBinding(this.errorLayout);
     this.fbIcon = fbIcon;
     this.friendBgImgLayout = friendBgImgLayout;
     this.friendBoardBg = friendBoardBg;
     this.friendsBoardText = friendsBoardText;
     this.friendsList = friendsList;
     this.headerParent = headerParent;
-    setContainedBinding(this.headerParent);
     this.headerTopParent = headerTopParent;
-    setContainedBinding(this.headerTopParent);
     this.inviteButton = inviteButton;
     this.inviteNow = inviteNow;
     this.inviteProgress = inviteProgress;
@@ -136,12 +133,10 @@ public abstract class FriendsLeoboardListLayoutBinding extends ViewDataBinding {
     this.progressBar = progressBar;
     this.progressBar2 = progressBar2;
     this.progressbar = progressbar;
-    setContainedBinding(this.progressbar);
     this.recyclerviewRefferal = recyclerviewRefferal;
     this.recyclerviewReffered = recyclerviewReffered;
     this.shimmerViewQuiz = shimmerViewQuiz;
     this.toolbarLayout = toolbarLayout;
-    setContainedBinding(this.toolbarLayout);
     this.txtrefferaluser = txtrefferaluser;
     this.txtreffereduser = txtreffereduser;
   }

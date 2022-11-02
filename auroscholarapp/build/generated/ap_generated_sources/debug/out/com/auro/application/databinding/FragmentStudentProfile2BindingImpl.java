@@ -242,6 +242,7 @@ public class FragmentStudentProfile2BindingImpl extends FragmentStudentProfile2B
             , (android.widget.LinearLayout) bindings[97]
             );
         this.errorConstraint.setTag(null);
+        setContainedBinding(this.errorLayout);
         this.mboundView0 = (android.widget.RelativeLayout) bindings[0];
         this.mboundView2 = (com.auro.application.databinding.ShimmerMyClassroomLayoutBinding) bindings[4];
         setContainedBinding(this.mboundView2);

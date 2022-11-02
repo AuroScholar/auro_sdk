@@ -166,7 +166,6 @@ public abstract class FragmentUserProfileBinding extends ViewDataBinding {
     this.profileImage = profileImage;
     this.profileimage = profileimage;
     this.progressbar = progressbar;
-    setContainedBinding(this.progressbar);
     this.relSchool = relSchool;
     this.rpTeacherprofile = rpTeacherprofile;
     this.skipForNow = skipForNow;

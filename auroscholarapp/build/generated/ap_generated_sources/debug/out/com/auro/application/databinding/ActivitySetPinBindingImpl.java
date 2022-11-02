@@ -70,6 +70,7 @@ public class ActivitySetPinBindingImpl extends ActivitySetPinBinding  {
         this.mboundView0 = (android.widget.ScrollView) bindings[0];
         this.mboundView1 = (android.widget.RelativeLayout) bindings[1];
         this.mboundView1.setTag(null);
+        setContainedBinding(this.progressbar);
         setRootTag(root);
         // listeners
         invalidateAll();

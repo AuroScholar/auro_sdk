@@ -34,6 +34,7 @@ public class ActivityTeacherDashboardBindingImpl extends ActivityTeacherDashboar
             , (com.auro.application.databinding.NavigationDashboardLayoutBinding) bindings[1]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[0]
             );
+        setContainedBinding(this.naviagtionContent);
         setRootTag(root);
         // listeners
         invalidateAll();

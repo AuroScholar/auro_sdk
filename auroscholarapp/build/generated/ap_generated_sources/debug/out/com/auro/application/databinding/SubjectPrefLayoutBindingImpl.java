@@ -61,6 +61,7 @@ public class SubjectPrefLayoutBindingImpl extends SubjectPrefLayoutBinding  {
             , (androidx.recyclerview.widget.RecyclerView) bindings[11]
             );
         this.errorConstraint.setTag(null);
+        setContainedBinding(this.errorLayout);
         this.mboundView0 = (android.widget.RelativeLayout) bindings[0];
         setRootTag(root);
         // listeners

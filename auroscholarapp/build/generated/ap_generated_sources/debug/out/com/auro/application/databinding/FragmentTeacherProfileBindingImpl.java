@@ -121,6 +121,8 @@ public class FragmentTeacherProfileBindingImpl extends FragmentTeacherProfileBin
             , (com.auro.application.core.util.uiwidget.RPTextView) bindings[11]
             );
         this.errorConstraint.setTag(null);
+        setContainedBinding(this.errorLayout);
+        setContainedBinding(this.headerTopParent);
         this.mboundView3 = (com.auro.application.databinding.ShimmerMyClassroomLayoutBinding) bindings[6];
         setContainedBinding(this.mboundView3);
         this.parentLayoutOne.setTag(null);
