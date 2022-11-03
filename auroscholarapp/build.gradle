@@ -11,6 +11,7 @@ apply plugin: 'maven-publish'
 android {
     compileSdkVersion 32
     ndkVersion '21.1.6352462'
+
 //    defaultConfig {
 //      applicationId "com.auro.application"
 //        minSdkVersion 23
@@ -31,6 +32,7 @@ android {
 
     buildTypes {
         release {
+            multiDexEnabled true
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
@@ -117,7 +119,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-database:20.0.6'
     annotationProcessor googleDependencies.daggerCompiler
     //Rx Dependencies
-    api rxDependencies.rx_android
+    //api rxDependencies.rx_android
     implementation DatabaseDependencies.roomRuntime
     annotationProcessor DatabaseDependencies.roomCompiler
     implementation DatabaseDependencies.lifecyleRuntime
@@ -184,7 +186,7 @@ afterEvaluate {
                 artifact("$buildDir/outputs/aar/${artifactId}-release.aar")
                 groupId = 'com.github.AuroScholar'
                 artifactId = 'auro_sdk'
-                version = '2.2.24'
+                version = '2.2.25'
             }
         }
     }
