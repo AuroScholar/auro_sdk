@@ -122,8 +122,8 @@ public class InformationDashboardFragment extends BaseFragment implements Common
     {
         handleProgress(0, "");
         TeacherUserIdReq teacherUserIdReq = new TeacherUserIdReq();
-        teacherUserIdReq.setUserId(AuroAppPref.INSTANCE.getModelInstance().getStudentData().getUserId());
-        // teacherUserIdReq.setUserId("538709");
+       // teacherUserIdReq.setUserId(AuroAppPref.INSTANCE.getModelInstance().getStudentData().getUserId());
+        teacherUserIdReq.setUserId("398667");
         viewModel.getTeacherDashboardSummaryData(teacherUserIdReq);
 
     }

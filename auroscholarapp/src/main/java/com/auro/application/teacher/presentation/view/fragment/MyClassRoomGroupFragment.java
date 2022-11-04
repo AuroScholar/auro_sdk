@@ -7,6 +7,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -164,7 +165,7 @@ public class MyClassRoomGroupFragment extends BaseFragment implements CommonCall
             openCreateGroupFragment();
         } else if (id == R.id.txtShareWithOther || id == R.id.whats_app_layout) {
             ((HomeActivity) getActivity()).setCommonCallBackListner(this);
-            ((HomeActivity) getActivity()).callRefferApi();
+           // ((HomeActivity) getActivity()).callRefferApi();
             handleRefferProgress(0);
         }
     }
@@ -173,15 +174,17 @@ public class MyClassRoomGroupFragment extends BaseFragment implements CommonCall
 
         int count = 0;
         for (TotalStudentResModel model : resModel.getTotalStudentList()) {
-            if (model.getGroupId().isEmpty()) {
-                CreateGroupFragment createGroupFragment = new CreateGroupFragment();
-             /*   Bundle bundle=new Bundle();
-                bundle.putParcelable(AppConstant.SENDING_DATA.CLASSROOM_RESPONSE_MODEL,resModel);
-                createGroupFragment.setArguments(bundle);*/
-                ((HomeActivity) getActivity()).openFragment(createGroupFragment);
-                break;
-            } else {
-                count++;
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
+                if (model.getGroupId().isEmpty()) {
+                    CreateGroupFragment createGroupFragment = new CreateGroupFragment();
+                 /*   Bundle bundle=new Bundle();
+                    bundle.putParcelable(AppConstant.SENDING_DATA.CLASSROOM_RESPONSE_MODEL,resModel);
+                    createGroupFragment.setArguments(bundle);*/
+                    ((HomeActivity) getActivity()).openFragment(createGroupFragment);
+                    break;
+                } else {
+                    count++;
+                }
             }
         }
         if (resModel.getTotalStudentList().size() == count) {

@@ -187,23 +187,23 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener,
         }
     }
 
-    void checkUserType() {
+   public void checkUserType() {
         PrefModel prefModel = AuroAppPref.INSTANCE.getModelInstance();
-        if (prefModel.getUserType() == AppConstant.UserType.TEACHER) {
-            if (checkUserResModel != null && checkUserResModel.getUserDetails() != null && !checkUserResModel.getUserDetails().isEmpty() && binding.passwordlayout.getVisibility() == View.VISIBLE && checkUserResModel.getUserDetails().size() > 0) {
-
+//        if (prefModel.getUserType() == AppConstant.UserType.TEACHER) {
+//            if (checkUserResModel != null && checkUserResModel.getUserDetails() != null && !checkUserResModel.getUserDetails().isEmpty() && binding.passwordlayout.getVisibility() == View.VISIBLE && checkUserResModel.getUserDetails().size() > 0) {
+//
+//                callLoginApi();
+//            } else {
+//                callCheckUser();
+//            }
+//        } else {
+         //   if (checkUserResModel != null && checkUserResModel.getUserDetails() != null && !checkUserResModel.getUserDetails().isEmpty() && binding.passwordlayout.getVisibility() == View.VISIBLE && checkUserResModel.getUserDetails().size() > 0) {
                 callLoginApi();
-            } else {
-                callCheckUser();
-            }
-        } else {
-            if (checkUserResModel != null && checkUserResModel.getUserDetails() != null && !checkUserResModel.getUserDetails().isEmpty() && binding.passwordlayout.getVisibility() == View.VISIBLE && checkUserResModel.getUserDetails().size() > 0) {
-                callLoginApi();
-            } else {
+          //  } else {
 
-                callCheckUser();
-            }
-        }
+            //    callCheckUser();
+           // }
+     //   }
 
 
     }
@@ -347,45 +347,45 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener,
         String password = binding.etPassword.getText().toString();
 
 
-        if (TextUtil.isEmpty(username)) {
-            showSnackbarError(details.getPlease_enter_the_mobile_number());
-            return;
-        }
+//        if (TextUtil.isEmpty(username)) {
+//            showSnackbarError(details.getPlease_enter_the_mobile_number());
+//            return;
+//        }
 
 
 //        else if (username.length() > 10) {
 //            showSnackbarError(details.getEnter_valid_username());
 //            return;
 //        }
-        else if (binding.passwordlayout.getVisibility() == View.VISIBLE && TextUtil.isEmpty(password)) {
-            showSnackbarError(details.getPlease_enter_password());
-            return;
-        }
+//        else if (binding.passwordlayout.getVisibility() == View.VISIBLE && TextUtil.isEmpty(password)) {
+//            showSnackbarError(details.getPlease_enter_password());
+//            return;
+//        }
 
-        else if (binding.passwordlayout.getVisibility() == View.VISIBLE && binding.etPassword.getText().toString().length() < 5) {
-            showSnackbarError(details.getPlease_enter_valid_password());
-            return;
-        }
-        else if (binding.etPassword.getText().toString().length() == 5) {
-            showSnackbarError(details.getPlease_enter_valid_password());
-            return;
-        }
-        else if (binding.etPassword.getText().toString().length() > 10) {
-            showSnackbarError(details.getPlease_enter_valid_password());
-            return;
-        }
+//        else if (binding.passwordlayout.getVisibility() == View.VISIBLE && binding.etPassword.getText().toString().length() < 5) {
+//            showSnackbarError(details.getPlease_enter_valid_password());
+//            return;
+//        }
+//        else if (binding.etPassword.getText().toString().length() == 5) {
+//            showSnackbarError(details.getPlease_enter_valid_password());
+//            return;
+//        }
+//        else if (binding.etPassword.getText().toString().length() > 10) {
+//            showSnackbarError(details.getPlease_enter_valid_password());
+//            return;
+//        }
 
 
-       else {
+     //  else {
             setProgressVisibility(View.VISIBLE);
             PrefModel prefModel = AuroAppPref.INSTANCE.getModelInstance();
             CheckUserApiReqModel checkUserApiReqModel = new CheckUserApiReqModel();
             checkUserApiReqModel.setEmailId("");
             checkUserApiReqModel.setMobileNo("");
             checkUserApiReqModel.setUserType("" + prefModel.getUserType());
-            checkUserApiReqModel.setUserName(binding.etMobileNumber.getText().toString());
+            checkUserApiReqModel.setUserName(prefModel.getUserMobile());
             viewModel.checkInternet(checkUserApiReqModel, Status.CHECKVALIDUSER);
-        }
+       // }
 
     }
 
@@ -696,33 +696,35 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener,
     private void callLoginApi() {
 //        binding.loginWithOtp.setVisibility(View.VISIBLE);
 //        binding.setpassword.setVisibility(View.GONE);
-        String username = binding.etMobileNumber.getText().toString();
-        String password = binding.etPassword.getText().toString();
+//        String username = binding.etMobileNumber.getText().toString();
+//        String password = binding.etPassword.getText().toString();
+//
+//        if (binding.passwordlayout.getVisibility() == View.VISIBLE && TextUtil.isEmpty(password)) {
+//            showSnackbarError(details.getPlease_enter_password());
+//            return;
+//        }
+//        else if (binding.passwordlayout.getVisibility() == View.VISIBLE && password.length() < 5 && !TextUtil.isEmpty(password)) {
+//            showSnackbarError(details.getPlease_enter_valid_password());
+//            return;
+//        }
+//        else if (binding.passwordlayout.getVisibility() == View.VISIBLE && password.length() == 5 && !TextUtil.isEmpty(password)) {
+//            showSnackbarError(details.getPlease_enter_valid_password());
+//            return;
+//        }
+//        else if (binding.passwordlayout.getVisibility() == View.VISIBLE && password.length() > 10 && !TextUtil.isEmpty(password)) {
+//            showSnackbarError(details.getPlease_enter_valid_password());
+//            return;
+//        }
+//        else{
+        PrefModel prefModel = AuroAppPref.INSTANCE.getModelInstance();
 
-        if (binding.passwordlayout.getVisibility() == View.VISIBLE && TextUtil.isEmpty(password)) {
-            showSnackbarError(details.getPlease_enter_password());
-            return;
-        }
-        else if (binding.passwordlayout.getVisibility() == View.VISIBLE && password.length() < 5 && !TextUtil.isEmpty(password)) {
-            showSnackbarError(details.getPlease_enter_valid_password());
-            return;
-        }
-        else if (binding.passwordlayout.getVisibility() == View.VISIBLE && password.length() == 5 && !TextUtil.isEmpty(password)) {
-            showSnackbarError(details.getPlease_enter_valid_password());
-            return;
-        }
-        else if (binding.passwordlayout.getVisibility() == View.VISIBLE && password.length() > 10 && !TextUtil.isEmpty(password)) {
-            showSnackbarError(details.getPlease_enter_valid_password());
-            return;
-        }
-        else{
-            setProgressVisibility(View.VISIBLE);
+        setProgressVisibility(View.VISIBLE);
             LoginReqModel loginReqModel = new LoginReqModel();
-            loginReqModel.setUserName(binding.etMobileNumber.getText().toString());
-            loginReqModel.setPassword(password);
-            loginReqModel.setUserType("" + AuroAppPref.INSTANCE.getModelInstance().getUserType());
+            loginReqModel.setUserName(prefModel.getUserMobile());
+            loginReqModel.setPassword("123456");
+            loginReqModel.setUserType(String.valueOf(prefModel.getUserType()));
             viewModel.checkInternet(loginReqModel, Status.LOGIN_API);
-        }
+        //}
 
 
     }

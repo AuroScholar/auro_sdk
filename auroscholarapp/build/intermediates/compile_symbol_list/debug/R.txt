@@ -16,6 +16,8 @@ int array com_google_android_gms_fonts_certs_prod 0x0
 int array genderlist 0x0
 int array genderlist_profile 0x0
 int array languagelist 0x0
+int array my_array 0x0
+int array preloaded_fonts 0x0
 int array privateTutionList 0x0
 int array privateTypeList 0x0
 int array schooltypelist 0x0
@@ -550,6 +552,8 @@ int drawable whitecheck 0x0
 int drawable win_teacher_quiz 0x0
 int drawable your_scholar_ship_bg 0x0
 int font calibre_light 0x0
+int font caveat 0x0
+int font roboto 0x0
 int font roboto_medium 0x0
 int id CropOverlayView 0x0
 int id CropProgressBar 0x0

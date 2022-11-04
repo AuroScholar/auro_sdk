@@ -18,6 +18,8 @@ array com_google_android_gms_fonts_certs_prod
 array genderlist
 array genderlist_profile
 array languagelist
+array my_array
+array preloaded_fonts
 array privateTutionList
 array privateTypeList
 array schooltypelist
@@ -552,6 +554,8 @@ drawable whitecheck
 drawable win_teacher_quiz
 drawable your_scholar_ship_bg
 font calibre_light
+font caveat
+font roboto
 font roboto_medium
 id CropOverlayView
 id CropProgressBar

@@ -170,7 +170,7 @@ public class MainQuizHomeFragment extends BaseFragment implements CommonCallBack
         binding.setLifecycleOwner(this);
         binding.setQuizViewModel(quizViewModel);
         setRetainInstance(true);
-        getKYCChecked();
+        //getKYCChecked();
         init();
         setListener();
         return binding.getRoot();
@@ -185,7 +185,6 @@ public class MainQuizHomeFragment extends BaseFragment implements CommonCallBack
     @Override
     protected void init() {
      prefModel = AuroAppPref.INSTANCE.getModelInstance();
-     details = prefModel.getLanguageMasterDynamic().getDetails();
         try {
             AppLogger.e(TAG, DateUtil.getMonthName());
             binding.RPTextView9.setText(DateUtil.getMonthName() + " " + getActivity().getResources().getString(R.string.scholarship));
@@ -197,7 +196,7 @@ public class MainQuizHomeFragment extends BaseFragment implements CommonCallBack
             AppLogger.e(TAG, e.getMessage());
         }
 
-        dashboardResModel = prefModel.getDashboardResModel();
+      //  dashboardResModel = prefModel.getDashboardResModel();
         checkScreenPreferences();
         AppLogger.e("chhonker main quiz Fragment -- grade change--", "" + prefModel.isDashboardaApiNeedToCall());
         if (dashboardResModel != null && !prefModel.isDashboardaApiNeedToCall()) {
@@ -217,7 +216,7 @@ public class MainQuizHomeFragment extends BaseFragment implements CommonCallBack
     void checkScreenPreferences() {
         PrefModel prefModel = AuroAppPref.INSTANCE.getModelInstance();
         AppLogger.e("checkScreenPreferences --", "" + prefModel.getStudentClass());
-        int studentClass = ConversionUtil.INSTANCE.convertStringToInteger(prefModel.getStudentData().getGrade());
+        int studentClass = 2;
         AppLogger.e("checkScreenPreferences --", "" + studentClass);
         if (studentClass > 10) {
             FetchStudentPrefResModel fetchStudentPrefResModel = prefModel.getFetchStudentPrefResModel();

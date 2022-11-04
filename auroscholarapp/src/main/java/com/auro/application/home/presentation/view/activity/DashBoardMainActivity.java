@@ -10,6 +10,7 @@ import android.content.IntentSender;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.preference.PreferenceManager;
@@ -31,6 +32,7 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
@@ -225,6 +227,7 @@ public class DashBoardMainActivity extends BaseActivity implements GradeChangeFr
     String deviceToken = "";
     public boolean isBackNormal = true;
     List<GenderData> genderList = new ArrayList<>();
+    @RequiresApi(api = Build.VERSION_CODES.GINGERBREAD)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -240,8 +243,8 @@ public class DashBoardMainActivity extends BaseActivity implements GradeChangeFr
         });
 
 
-        getInstabug();
-        getBranch();
+        //getInstabug();
+        //getBranch();
         PrefModel prefModel = AuroAppPref.INSTANCE.getModelInstance();
         String mobilenumber = prefModel.getUserMobile();
 
@@ -293,6 +296,7 @@ public class DashBoardMainActivity extends BaseActivity implements GradeChangeFr
         }
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.GINGERBREAD)
     @Override
     protected void init() {
 
@@ -348,7 +352,7 @@ public class DashBoardMainActivity extends BaseActivity implements GradeChangeFr
         callGetInstructionsApi(AppConstant.InstructionsType.AFTER_LOGIN);
         // callRefferApi();
        // getRefferalPopUp(prefModel.getStudentData().getUserId());
-        getRefferalPopUp();
+      //  getRefferalPopUp();
         checkForGradeScreen();
 
     }
@@ -392,18 +396,19 @@ public class DashBoardMainActivity extends BaseActivity implements GradeChangeFr
         return R.layout.activity_dash_board_main;
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.GINGERBREAD)
     public void auroStudentscholarSdk(int status) {
         prefModel = AuroAppPref.INSTANCE.getModelInstance();
         inputModel = new AuroScholarInputModel();
         // Important Params
         //  inputModel.setMobileNumber(prefModel.getUserMobile());
-        if (!prefModel.getCheckUserResModel().getUserDetails().get(0).getUserMobile().isEmpty()||!prefModel.getCheckUserResModel().getUserDetails().get(0).getUserMobile().equals("")){
-            inputModel.setMobileNumber(prefModel.getCheckUserResModel().getUserDetails().get(0).getUserMobile());
-        }
-        else{
+//        if (!prefModel.getCheckUserResModel().getUserDetails().get(0).getUserMobile().isEmpty()||!prefModel.getCheckUserResModel().getUserDetails().get(0).getUserMobile().equals("")){
+//            inputModel.setMobileNumber(prefModel.getCheckUserResModel().getUserDetails().get(0).getUserMobile());
+//        }
+//        else{
 
-            inputModel.setMobileNumber(prefModel.getStudentData().getUserMobile());
-        }
+            inputModel.setMobileNumber(prefModel.getUserMobile());
+       // }
 
         String newdeviceToken = deviceToken;
         if (!TextUtil.isEmpty(newdeviceToken)) {
@@ -412,13 +417,13 @@ public class DashBoardMainActivity extends BaseActivity implements GradeChangeFr
         }
 
         //Mandatory
-        inputModel.setStudentClass(prefModel.getStudentData().getGrade());
+        inputModel.setStudentClass("2");
 
-        if (prefModel.getDynamiclinkResModel() != null && !TextUtil.isEmpty(prefModel.getDynamiclinkResModel().getSource())) {
-            inputModel.setRegitrationSource(prefModel.getDynamiclinkResModel().getSource());
-        } else {
+//        if (prefModel.getDynamiclinkResModel() != null && !TextUtil.isEmpty(prefModel.getDynamiclinkResModel().getSource())) {
+//            inputModel.setRegitrationSource(prefModel.getDynamiclinkResModel().getSource());
+//        } else {
             inputModel.setRegitrationSource("AuroScholr");
-        }
+      //  }
 
         inputModel.setActivity(this); //Mandatory
         inputModel.setFragmentContainerUiId(R.id.home_container);
@@ -1892,7 +1897,7 @@ public class DashBoardMainActivity extends BaseActivity implements GradeChangeFr
     public void callGetInstructionsApi(String type) {
         typeGradeChange = type;
       String userlangid = prefModel.getUserLanguageId();
-      int langid = Integer.parseInt(userlangid);
+      int langid = Integer.parseInt("1");
         InstructionModel instructionModel = new InstructionModel();
         instructionModel.setLanguageId(langid);
         instructionModel.setInstructionCode(type);
