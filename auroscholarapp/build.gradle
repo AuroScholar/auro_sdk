@@ -175,19 +175,19 @@ dependencies {
 //apply plugin: 'maven-publish'
 //googleServices.disableVersionCheck = true
 apply plugin: 'com.google.gms.google-services'
-repositories {
-    mavenCentral()
-}
-
-//afterEvaluate {
-//    publishing {
-//        publications {
-//            release(MavenPublication) {
-//                artifact("$buildDir/outputs/aar/${artifactId}-release.aar")
-//                groupId = 'com.github.AuroScholar'
-//                artifactId = 'auro_sdk'
-//                version = '2.2.27'
-//            }
-//        }
-//    }
+//repositories {
+//    mavenCentral()
 //}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                artifact("$buildDir/outputs/aar/${artifactId}-release.aar")
+                groupId = 'com.github.AuroScholar'
+                artifactId = 'auro_sdk'
+                version = '2.2.29'
+            }
+        }
+    }
+}
