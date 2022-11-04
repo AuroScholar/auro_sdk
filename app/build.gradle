@@ -86,7 +86,7 @@ afterEvaluate {
                 artifact("$buildDir/outputs/aar/${artifactId}-release.aar")
                 groupId = 'com.github.AuroScholar'
                 artifactId = 'auro_sdk'
-                version = '2.2.26'
+                version = '2.2.28'
             }
         }
     }
