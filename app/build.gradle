@@ -12,6 +12,7 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'com.google.gms.google-services'
 apply plugin: 'com.google.firebase.crashlytics'
 apply plugin: 'maven-publish'
+apply from: "dependencies.gradle"
 
 android {
     compileSdkVersion 32
