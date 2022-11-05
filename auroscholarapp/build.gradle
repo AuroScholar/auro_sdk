@@ -19,7 +19,8 @@ android {
 //        versionCode 71
 //        versionName "0.0.69"
       multiDexEnabled true
-//        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+   testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
 //        buildConfigField 'int', 'DEFAULT_ANIMATION_DURATION', '750'
    }
 
@@ -187,7 +188,7 @@ afterEvaluate {
                 artifact("$buildDir/outputs/aar/${artifactId}-release.aar")
                 groupId = 'com.github.AuroScholar'
                 artifactId = 'auro_sdk'
-                version = '2.2.31'
+                version = '2.2.32'
             }
         }
     }
