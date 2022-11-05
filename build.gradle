@@ -20,22 +20,22 @@ buildscript {
 //        classpath "com.google.android.libraries.mapsplatform.secrets-gradle-plugin:secrets-gradle-plugin:2.0.1"
     }
 }
-allprojects {
+//allprojects {
 //    gradle.projectsEvaluated {
 //        tasks.withType(JavaCompile) {
 //            options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
 //        }
 //    }
-    repositories {
-        google()
-        jcenter()
-        maven { url "https://maven.google.com" }
-
-        maven { url "https://jitpack.io" }
-       // mavenCentral()
-
-    }
-}
+//    repositories {
+//        google()
+//        jcenter()
+//        maven { url "https://maven.google.com" }
+//
+//        maven { url "https://jitpack.io" }
+//       // mavenCentral()
+//
+//    }
+//}
 
 
 
