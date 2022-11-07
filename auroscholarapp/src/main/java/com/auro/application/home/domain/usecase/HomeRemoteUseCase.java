@@ -483,7 +483,7 @@ public class HomeRemoteUseCase extends NetworkUseCase {
 
         }
 
-        model.setUserId(prefModel.getStudentData().getUserId());
+        model.setUserId(prefModel.getUserId());
         return dashboardRemoteData.getDashboardData(model).map(new Function<Response<JsonObject>, ResponseApi>() {
             @Override
             public ResponseApi apply(Response<JsonObject> response) throws Exception {
