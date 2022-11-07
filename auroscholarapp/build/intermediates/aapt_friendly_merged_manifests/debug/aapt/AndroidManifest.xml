@@ -5,8 +5,8 @@
 
     <uses-sdk
         android:minSdkVersion="1"
-        android:targetSdkVersion="1"
-        tools:overrideLibrary="com.github.dhaval2404.imagepicker,com.pierfrancescosoffritti.androidyoutubeplayer, androidx.camera.view , androidx.camera.extensions,androidx.camera.camera2, androidx.camera.lifecycle,androidx.camera.core" />
+        android:targetSdkVersion="1" />
+    <!-- <uses-sdk tools:overrideLibrary="com.github.dhaval2404.imagepicker,com.pierfrancescosoffritti.androidyoutubeplayer, androidx.camera.view , androidx.camera.extensions,androidx.camera.camera2, androidx.camera.lifecycle,androidx.camera.core" /> -->
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -47,7 +47,8 @@
     <!-- </queries> -->
     <application
         android:name="com.auro.application.core.application.AuroApp"
-        android:usesCleartextTraffic="true" >
+        android:usesCleartextTraffic="true"
+        tools:overrideLibrary="androidx.multidex.instrumentation" >
 
         <!-- android:excludeFromRecents="false" -->
         <!-- android:preserveLegacyExternalStorage="true" -->
