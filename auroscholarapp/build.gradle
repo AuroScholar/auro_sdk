@@ -9,7 +9,7 @@ apply plugin: 'com.google.firebase.crashlytics'
 apply plugin: 'maven-publish'
 
 android {
- //   compileSdkVersion 32
+    compileSdkVersion 32
     ndkVersion '21.1.6352462'
 
    /// defaultConfig {
@@ -169,9 +169,6 @@ dependencies {
     annotationProcessor 'com.gabrielittner.auto.value:auto-value-with:1.1.1'
 
 
-
-
-
 }
 //apply plugin: 'com.google.gms.google-services'
 //apply plugin: 'kotlin-android'
@@ -189,7 +186,7 @@ afterEvaluate {
                 artifact("$buildDir/outputs/aar/${artifactId}-release.aar")
                 groupId = 'com.github.AuroScholar'
                 artifactId = 'auro_sdk'
-                version = '2.2.40'
+                version = '2.2.41'
             }
         }
     }
